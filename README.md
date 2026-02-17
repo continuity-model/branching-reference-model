@@ -1,2 +1,115 @@
-# branching-reference-model
-A structural protocol for stable human–AI collaboration based on explicit reference branching rather than linear context retention.
+# Branching Reference Model (BRM)
+
+A structural protocol for stable human–AI collaboration based on **reference branching** rather than linear context retention.
+
+---
+
+## 🧠 What is BRM?
+
+Branching Reference Model (BRM) is a conceptual framework designed to solve one of the most persistent limitations of current AI systems:
+
+**Context collapse in long conversations.**
+
+Traditional AI interaction relies on a linear accumulation of context.  
+As conversations grow longer, information becomes mixed, priorities shift, and reference stability degrades.
+
+BRM proposes a different approach:
+
+> **Memory is not for retention.  
+> Memory exists to enable accurate reference navigation.**
+
+Instead of forcing all information into a single continuous stream, BRM organizes context into structured, referenceable branches.
+
+---
+
+## 🚩 The Problem It Solves
+
+Current AI interaction suffers from:
+
+• Context drift over long sessions  
+• Loss of original decision anchors  
+• Mixing facts with generated interpretations  
+• Difficulty handling topic jumps  
+• Increasing hallucination risk with conversation length  
+
+These are not intelligence problems — they are **continuity structure problems**.
+
+---
+
+## 🌿 Core Concept
+
+BRM replaces linear context with a branching structure:
+
+• Conversations are separated into thematic nodes  
+• Each node maintains stable reference links  
+• Decisions are preserved independently from raw logs  
+• Generated outputs are isolated from factual memory  
+
+This allows both humans and AI to navigate shared context without losing stability.
+
+---
+
+## 🧩 Key Principles
+
+### 1. Reference over Retention
+Memory is valuable only if it can be reliably referenced.
+
+### 2. Structural Continuity
+Continuity should come from structure, not accumulation.
+
+### 3. Fact / Decision Separation
+Decisions must remain stable even as discussions evolve.
+
+### 4. Generated Content Isolation
+AI outputs should never contaminate factual memory.
+
+---
+
+## 📦 This Free Concept Share Kit Includes
+
+• Core philosophy overview  
+• One-page visual explanation  
+• Concept diagrams  
+• Foundational documentation  
+
+---
+
+## 👤 Author
+
+**Shogo Shirako**
+
+This framework was developed through extensive real-world experimentation in long-term human–AI collaborative environments.
+
+---
+
+## 🌍 Purpose of This Release
+
+This concept is shared freely to:
+
+• Improve human-AI collaboration stability  
+• Reduce interaction friction and cognitive fatigue  
+• Encourage more sustainable AI usage patterns  
+
+---
+
+## 📜 License
+
+This material is shared for educational and research purposes.
+
+---
+
+## 🔗 Download
+
+See the latest release:
+
+👉 https://github.com/continuity-model/branching-reference-model/releases
+
+---
+
+## ✨ Final Thought
+
+> Memory is not about storing everything.  
+> It is about knowing where to look.
+
+BRM is not an upgrade to AI intelligence.  
+It is an upgrade to how humans and AI **share continuity**.
