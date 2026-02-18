@@ -110,6 +110,11 @@ AI outputs should never contaminate factual memory.
 • Concept diagrams  
 • Foundational documentation  
 
+## Free Concept Share Kit
+
+Download the full concept materials:
+
+[Download the latest release](https://github.com/continuity-model/branching-reference-model/releases/latest)
 ---
 
 ## 👤 Author
