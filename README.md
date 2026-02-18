@@ -10,7 +10,7 @@ In long AI collaborations, the same words may continue to appear, but their unde
 
 You can jump ahead in discussion, yet it becomes difficult to truly return to what was previously shared. Roles may become fixed, and AI may fill gaps on its own. What once felt like a stable, shared understanding can slowly drift without being noticed.
 
-These frustrations look different, but they all come from the same root: invisible structural constraints on conversation.
+These frustrations look different, but they all come from the same root: invisible structural constraints shaping how conversations can evolve.
 
 ## 🧠 What is BRM?
 
