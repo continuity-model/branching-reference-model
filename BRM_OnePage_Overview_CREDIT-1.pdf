@@ -1,0 +1,474 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+2 0 obj
+<<
+/Producer (PyPDF2)
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+/F1ca716027-0c92-4a45-99d5-4179ecb7e3ca <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+>>
+/ProcSet [ /ImageB /ImageC /Text /PDF /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 1 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3685
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+1 0 0 1 78 719.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 26 Tm
+/F2 18 Tf
+22 TL
+6.085795 0 Td
+(BRM\040\050Behavioral\040Reference\040Memory\051\040\227\040One\040Page) Tj
+T*
+173.529 0 Td
+(Overview) Tj
+T*
+-179.6148 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 78 701.8898 cm
+Q
+q
+1 0 0 1 78 671.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14 Tm
+/F1 10 Tf
+12 TL
+(BRM\040is\040a\040continuity\040control\040model\040for\040AI\040interaction\040where\040contextual\040stability\040is\040maintained\040through) Tj
+T*
+(explicit\040structural\040references\040rather\040than\040probabilistic\040completion\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 659.8898 cm
+Q
+q
+1 0 0 1 78 629.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 14 Tf
+18 TL
+(Core\040Principles) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 611.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 611.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(Continuity\040is\040structural\054\040not\040textual\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 593.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 593.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(Anchors\040require\040explicit\040confirmation\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 575.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 575.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(Generated\040outputs\040never\040become\040anchors\040by\040default\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 557.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 557.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(Thought\040jumps\040resolve\040via\040reference\054\040not\040completion\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 539.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(5) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 539.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(Continuity\040is\040independent\040of\040sessions\056) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 527.8898 cm
+Q
+q
+1 0 0 1 78 497.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 14 Tf
+18 TL
+(What\040BRM\040Solves) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 479.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 479.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(Continuity\040collapse\040in\040long\055term\040AI\040interaction) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 461.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(2) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 461.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(State\040contamination\040across\040sessions) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 443.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(3) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 443.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(Hallucination\040memory\040fixation) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 425.8898 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+(4) Tj
+T*
+ET
+Q
+q
+1 0 0 1 96 425.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(Role) Tj
+/F3 10 Tf
+12 TL
+(n) Tj
+/F1 10 Tf
+12 TL
+(based\040artificial\040consistency\040limitations) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 413.8898 cm
+Q
+q
+1 0 0 1 78 383.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 14 Tf
+18 TL
+(Positioning) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78 365.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F1 10 Tf
+12 TL
+(RAG\040improves\040what\040AI\040can\040know\056\040BRM\040ensures\040the\040AI\040remains\040the\040same\040over\040time\056) Tj
+T*
+ET
+Q
+Q
+Q
+q
+0 0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1ca716027-0c92-4a45-99d5-4179ecb7e3ca 12 Tf
+14.4 TL
+ET
+BT
+/F1ca716027-0c92-4a45-99d5-4179ecb7e3ca 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 136.8213 28.34646 Tm
+(Branching\040Reference\040Model\040\050BRM\051\040\227\040Concept\040defined\040by\040Shogo\040Shirako\040\0502026\051) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000074 00000 n 
+0000000114 00000 n 
+0000000163 00000 n 
+0000000536 00000 n 
+0000004273 00000 n 
+0000004380 00000 n 
+0000004492 00000 n 
+0000004575 00000 n 
+trailer
+<<
+/Size 10
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+4682
+%%EOF
