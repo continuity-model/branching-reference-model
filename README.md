@@ -10,7 +10,35 @@ In long AI collaborations, the same words may continue to appear, but their unde
 
 You can jump ahead in discussion, yet it becomes difficult to truly return to what was previously shared. Roles may become fixed, and AI may fill gaps on its own. What once felt like a stable, shared understanding can slowly drift without being noticed.
 
-These frustrations look different, but they all come from the same root: invisible structural constraints shaping how conversations can evolve.
+These frustrations look different, but they all come from the same root: invisible structural constraints on conversation.
+
+---
+
+![Emotional Drift in AI Collaboration](docs/diagram1_emotional_drift.png)
+
+---
+
+![Invisible Constraints on Conversation](docs/diagram2_constraints.png)
+
+---
+
+![Open AI’s Judgment Process](docs/diagram3_open_judgment.png)
+
+---
+
+## Comparing Approaches to Stable AI Collaboration
+
+| Aspect | Role-based Prompting | Context Accumulation / RAG | Prompt Engineering | BRM (Branching Reference Model) |
+|--------|----------------------|-----------------------------|--------------------|----------------------------------|
+| Long-term memory handling | Fixed role context | Accumulated and mixed | Depends on prompt design | Structured reference branches |
+| Role rigidity | High | Medium | Medium | Low |
+| Resistance to meaning drift | Low | Low–Medium | Medium | High |
+| Handling conceptual jumps | Difficult | Difficult | Depends on prompts | Natural via branching |
+| Ability to return to prior state | No | No | Partial | Yes |
+| Stability after session reconnection | Low | Low | Low–Medium | High |
+| Judgment transparency | Hidden | Hidden | Hidden | Visible |
+
+---
 
 ## 🧠 What is BRM?
 
