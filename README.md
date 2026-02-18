@@ -6,6 +6,14 @@ There is a structural solution.
 
 ---
 
+## Quick Start: What is BRM?
+
+📄 **One-Page Visual Overview**
+
+👉 [View the BRM Concept Diagram (PDF)](./BRM_OnePage_Overview_CREDIT.pdf)
+
+---
+
 ## Why AI Collaboration Feels Frustrating
 
 In long AI collaborations, the same words may continue to appear, but their underlying meaning gradually shifts.
