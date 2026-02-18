@@ -14,15 +14,15 @@ These frustrations look different, but they all come from the same root: invisib
 
 ---
 
-![Emotional Drift in AI Collaboration](docs/diagram1_emotional_drift.png)
+![Emotional Drift in AI Collaboration](diagram1_emotional_drift.png)
 
 ---
 
-![Invisible Constraints on Conversation](docs/diagram2_constraints.png)
+![Invisible Constraints on Conversation](diagram2_constraints.png)
 
 ---
 
-![Open AI’s Judgment Process](docs/diagram3_open_judgment.png)
+![Open AI’s Judgment Process](diagram3_open_judgment.png)
 
 ---
 
