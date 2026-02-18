@@ -1,29 +1,16 @@
----
-In AI conversations,  
-the words stay the same —  
-but the meaning slowly drifts.
-
-You can jump ahead,  
-yet you can’t truly return.
-
-Roles become fixed.  
-AI fills gaps on its own.  
-What once felt shared starts to shift.
-
-These frustrations look different,  
-but they all come from the same root:
-
-**Invisible constraints on conversation.**
-
-→ See how this happens and how BRM resolves it:  
-[Visual Overview — Why AI Conversations Drift and How to Break Free](./docs/visual_overview.md)
----
-
 # Branching Reference Model (BRM)
 
 A structural protocol for stable human–AI collaboration based on **reference branching** rather than linear context retention.
 
 ---
+
+## Why AI Collaboration Feels Frustrating
+
+In long AI collaborations, the same words may continue to appear, but their underlying meaning gradually shifts.
+
+You can jump ahead in discussion, yet it becomes difficult to truly return to what was previously shared. Roles may become fixed, and AI may fill gaps on its own. What once felt like a stable, shared understanding can slowly drift without being noticed.
+
+These frustrations look different, but they all come from the same root: invisible structural constraints on conversation.
 
 ## 🧠 What is BRM?
 
