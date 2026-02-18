@@ -22,6 +22,7 @@ You can jump ahead in discussion, yet it becomes difficult to truly return to wh
 
 These frustrations look different, but they all come from the same root: invisible structural constraints on conversation.
 
+BRM exists to bridge this structural mismatch.
 ---
 
 ![Emotional Drift in AI Collaboration](diagram1_emotional_drift.png)
