@@ -1,6 +1,8 @@
 # Branching Reference Model (BRM)
 
-A structural protocol for stable human–AI collaboration based on **reference branching** rather than linear context retention.
+**Working with AI often starts with clarity — and ends in confusion.**
+
+There is a structural solution.
 
 ---
 
