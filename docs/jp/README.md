@@ -69,7 +69,13 @@ AIが「使える相棒」に変わります。
 
 ## 詳しく知りたい方へ
 
-英語版ドキュメントはこちら：
+### Core Principle
+
+- 🇯🇵 日本語: [BRMコア原則](docs/jp/BRM_Core_v1_JP.md)
+
+---
+
+公式リポジトリ：
 
 https://github.com/continuity-model/branching-reference-model
 
