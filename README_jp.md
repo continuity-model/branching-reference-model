@@ -1,6 +1,6 @@
 # BRM — AIとの会話が壊れる本当の理由
 
-## こんな経験ありませんか？
+こんな経験ありませんか？
 
 AIと長く話していると、
 
@@ -19,69 +19,42 @@ AIと長く話していると、
 
 ## AIが悪いわけではない
 
-AIはバカではありません。
+AIはバカではありません。  
+問題はもっと単純です。  
 
-問題はもっと単純です。
+人間とAIは **考え方の形が違う** のです。  
 
-人間とAIは  
-**考え方の形が違う** のです。
+人間の思考は枝分かれします。  
+しかしAIは一本の会話の流れとして処理します。  
 
-人間の思考は枝分かれします。
-
-しかしAIは  
-一本の会話の流れとして処理します。
-
-このズレが続くと、
-
-会話は必ず壊れます。
+このズレが続くと、会話は必ず壊れます。
 
 ---
 
-## BRMとは何か
+## BRM — 安定したAI運用のために
 
-BRMは、そのズレを解消するための  
-とてもシンプルな考え方です。
+BRM（Branching Reference Model）は、  
+会話の流れを分岐参照型で扱うことで、  
+AIの連続性と安定性を確保します。
 
-難しい技術は使いません。
+### 関連資料
 
-特別なツールも不要です。
+- BRM Core 定義（日本語）: [core/JP/BRM_Core_v1_JP.md](core/JP/BRM_Core_v1_JP.md)
+- BRM Positioning Map: [docs/JP/BRM_Positioning_Map.png](docs/JP/BRM_Positioning_Map.png)
+- BRM Final Positioning Map: [docs/JP/BRM_Final_Positioning_Map.png](docs/JP/BRM_Final_Positioning_Map.png)
+- Branching Reference Model 全文（日本語）: [full_model/JP/Branching_Reference_Model_FULL.md](full_model/JP/Branching_Reference_Model_FULL.md)
 
-ただ、
+### 商品リンク
 
-「思考の整理の仕方」を変えるだけです。
+- BRM Operation Mode — 長期AI協働のための構造運用パック（JP）  
+  [Gumroad](https://takem2.gumroad.com/l/iiavih)
 
----
+- BRM Lite — 会話が壊れないAI運用 Experience Pack（JP）  
+  [Gumroad](https://takem2.gumroad.com/l/fjpdh)
 
-## 何が変わるのか
-
-BRMを使うと、
-
-- 会話が噛み合い続ける
-- 説明の繰り返しが減る
-- AIが安定して理解する
-- 長時間の共同作業が可能になる
-
-つまり、
-
-AIが「使える相棒」に変わります。
+- AI Context Anchoring Framework — AIを安定したパートナーに変える思考基盤  
+  [Gumroad](https://takem2.gumroad.com/l/zztsos)
 
 ---
 
-## 詳しく知りたい方へ
-
-### Core Principle
-
-- 🇯🇵 日本語: [BRMコア原則](docs/jp/BRM_Core_v1_JP.md)
-
----
-
-公式リポジトリ：
-
-https://github.com/continuity-model/branching-reference-model
-
----
-
-## 作者
-
-Branching Reference Model（BRM）提唱者  
-Shogo Shirako
+各パックの詳細な運用例や体験版は Zenn 記事・Gumroad から入手できます。
