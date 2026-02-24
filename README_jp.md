@@ -1,3 +1,9 @@
+# Branching Reference Model (BRM)
+
+![Linear vs BRM](docs/img/linear_vs_brm_v2.png)
+
+A structural framework for stabilizing long-term AI collaboration.
+
 # BRM — AIとの会話が壊れる本当の理由
 
 こんな経験ありませんか？
