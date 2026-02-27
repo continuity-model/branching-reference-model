@@ -1,3 +1,7 @@
+🌐 **Language / 言語**
+- 🇺🇸 English
+- 🇯🇵 [日本語版はこちら](README_jp.md)
+
 # Branching Reference Model (BRM)
 
 ![Linear vs BRM](/docs/img/linear_vs_brm_v2.png)
