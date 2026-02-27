@@ -25,8 +25,8 @@ AIとの対話が長くなるにつれ、表面上は安定しているように
 ## 思考の原点（Thinking Phase）
 *なぜこれを作ったのか？* モデルの詳細に入る前に、現在のLLMアーキテクチャにおいて長期協働がなぜ崩壊するのか、その構造的解析を探索してください。
 
-- **[AIとの長期協働における構造的ギャップ (Japanese)](Core/JP/Structural_Gap_in_Long_Term_LLM_Collaboration_JP.md)**
-- **[The Structural Gap in Long-Term LLM Collaboration (English)](Core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)**
+- **[AIとの長期協働における構造的ギャップ (Japanese)](core/JP/Structural_Gap_in_Long_Term_LLM_Collaboration_JP.md)**
+- **[The Structural Gap in Long-Term LLM Collaboration (English)](core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)**
 
 ---
 
