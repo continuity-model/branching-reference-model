@@ -1,66 +1,68 @@
 # Branching Reference Model (BRM)
 
-![Linear vs BRM](docs/img/linear_vs_brm_v2.png)
+![Linear vs BRM](/docs/img/linear_vs_brm_v2.png)
 
 A structural framework for stabilizing long-term AI collaboration.
 
-# BRM — AIとの会話が壊れる本当の理由
+---
 
-こんな経験ありませんか？
+## なぜAIとの協働は崩壊するのか（Why AI Collaboration Breaks）
 
-AIと長く話していると、
+AIとの対話が長くなるにつれ、表面上は安定しているように見えても、水面下では「構造的浸食」が進行しています：
+- **意味の変質（Meaning Drifts）:** 基礎となる概念の定義が、時間の経過とともに微妙に変化していく。
+- **錨（Anchor）の溶解:** 直近の入力が優先され、初期に設定した重要な制約が「権威」を失っていく。
+- **コンテキストの崩壊:** 履歴が構造化されないまま蓄積され、未分化な「ノイズの場」と化す。
+- **内部バイアスの蓄積:** 曖昧な領域が、チェックされないまま「統計的にもっともらしい推論」で埋め尽くされる。
 
-- さっき決めたことを忘れる
-- 同じ説明を何度もする
-- 話がズレていく
-- だんだん噛み合わなくなる
-
-そして最後に思う。
-
-「AIってやっぱり使えないな…」
-
-でも、それは違います。
+**これは知能の敗北ではない。構造的な連続性の問題である。**
 
 ---
 
-## AIが悪いわけではない
+## 思考の原点（Thinking Phase）
+*なぜこれを作ったのか？* モデルの詳細に入る前に、現在のLLMアーキテクチャにおいて長期協働がなぜ崩壊するのか、その構造的解析を探索してください。
 
-AIはバカではありません。  
-問題はもっと単純です。  
-
-人間とAIは **考え方の形が違う** のです。  
-
-人間の思考は枝分かれします。  
-しかしAIは一本の会話の流れとして処理します。  
-
-このズレが続くと、会話は必ず壊れます。
+- **[AIとの長期協働における構造的ギャップ (Japanese)](Core/JP/Structural_Gap_in_Long_Term_LLM_Collaboration_JP.md)**
+- **[The Structural Gap in Long-Term LLM Collaboration (English)](Core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)**
 
 ---
 
-## BRM — 安定したAI運用のために
+## 構造比較（Structural Comparison）
 
-BRM（Branching Reference Model）は、  
-会話の流れを分岐参照型で扱うことで、  
-AIの連続性と安定性を確保します。
-
-### 関連資料
-
-- BRM Core 定義（日本語）: [core/JP/BRM_Core_v1_JP.md](core/JP/BRM_Core_v1_JP.md)
-- BRM Positioning Map: [docs/JP/BRM_Positioning_Map.png](docs/JP/BRM_Positioning_Map.png)
-- BRM Final Positioning Map: [docs/JP/BRM_Final_Positioning_Map.png](docs/JP/BRM_Final_Positioning_Map.png)
-- Branching Reference Model 全文（日本語）: [full_model/JP/Branching_Reference_Model_FULL.md](full_model/JP/Branching_Reference_Model_FULL.md)
-
-### 商品リンク
-
-- BRM Operation Mode — 長期AI協働のための構造運用パック（JP）  
-  [Gumroad](https://takem2.gumroad.com/l/iiavih)
-
-- BRM Lite — 会話が壊れないAI運用 Experience Pack（JP）  
-  [Gumroad](https://takem2.gumroad.com/l/fjpdh)
-
-- AI Context Anchoring Framework — AIを安定したパートナーに変える思考基盤  
-  [Gumroad](https://takem2.gumroad.com/l/zztsos)
+| 比較項目 | ロール指定型プロンプト | コンテキスト蓄積型 | **BRM** |
+| :--- | :--- | :--- | :--- |
+| **長期安定性** | 低 | 中 | **高** |
+| **ドリフト耐性** | 低 | 中 | **高** |
+| **復旧性** | なし | 限定的 | **あり** |
+| **構造の可視性** | 不透明 | 不透明 | **明示的** |
 
 ---
 
-各パックの詳細な運用例や体験版は Zenn 記事・Gumroad から入手できます。
+## ドキュメント・インデックス（Document Index）
+
+### 1. Core Model (コア・モデル)
+BRMの本質的な定義と論理構造。
+- [Core Definition (JP)](core/JP/BRM_Core_Definition_JP.md)
+- [Core Definition (EN)](core/EN/BRM_Core_Definition_EN.md)
+
+### 2. Compressed Theory Edition (要約理論版)
+概念の本質を短時間で深く理解するためのエディション。
+- [JP Theory](essay/JP/Illusion_of_Conversation_Compressed_Theory_JP.md)
+- [EN Theory](essay/EN/Illusion_of_Conversation_Compressed_Theory_EN.md)
+
+### 3. Conceptual Essays (概念エッセイ)
+AI協働の哲学に関する深い探求。
+- [日本語エッセイ](essay/JP/)
+- [English Essays](essay/EN/)
+
+### 4. Full Structured Model (完全構造化モデル)
+完全な実装フレームワーク。
+- [Full Model (JP)](full_model/JP/)
+- [Full Model (EN)](full_model/EN/)
+
+---
+
+## Final Thought
+
+AIの崩壊はカオスではない。それは、設計（Design）のない重力が引き起こす必然的な結果である。
+
+メモリを増やすことが解決策でないとするならば、我々は制御し損ねている「変数」に目を向けなければならない。スコープ（参照範囲）は自然発生的な属性ではない。**それは、アーキテクチャ上の選択である。**
