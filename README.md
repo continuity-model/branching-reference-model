@@ -42,7 +42,7 @@ problem.
 ## The Foundation (Thinking Phase)
 
 - [The Structural Gap in Long-Term LLM Collaboration (EN)](core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)
-- [The Structural Gap in Long-Term LLM Collaboration (JP)](core/JP/Structural_Gap_in_Long_Term_LLM_Collaboration.md)
+- [The Structural Gap in Long-Term LLM Collaboration (JP)](core/JP/Structural_Gap_in_Long_Term_LLM_Collaboration_JP.md)
 
 ## Core Model
 
