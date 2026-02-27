@@ -74,14 +74,14 @@ To understand why structural intervention is necessary, we must contrast default
 ### The Current Problem: Uncontrolled Context Drift
 In standard interactions, the AI processes the entire context as a simultaneous weighted field. Because refinement does not follow human sequencing, elements shift outside the intended order. This produces subtle drift — not immediate failure, but accumulated instability.
 
-![Figure 1: Current Structural Gap](docs/img/Uncontrolled_Context_Drift.png)
+![Figure 1: Current Structural Gap](/docs/img/Uncontrolled_Context_Drift.png)
 
 ### The Structural Countermeasure: BRM
 **BRM (Branching Reference Model)** introduces a constraint layer. By defining an **Anchor**, the human restricts active reasoning to a specific **Active Slot.** Surrounding context remains surface-scanned, not integrated into inference.
 
 The objective is not more memory. It is **Reference Purity.** Stability through scoping.
 
-![Figure 2: BRM Anchored Reference Model](Docs/img/Anchored_Reference_Scoping_BRM.png)
+![Figure 2: BRM Anchored Reference Model](/docs/img/Anchored_Reference_Scoping_BRM.png)
 
 ---
 
