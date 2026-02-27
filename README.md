@@ -41,13 +41,13 @@ problem.
 
 ## The Foundation (Thinking Phase)
 
-- [The Structural Gap in Long-Term LLM Collaboration (EN)](Core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)
+- [The Structural Gap in Long-Term LLM Collaboration (EN)](core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)
 
 ## Core Model
 
 - [Core Definition (EN)](core/EN/BRM_Core_Definition_EN.md)
 - [Core Definition (JP)](core/JP/BRM_Core_Definition_JP.md)
-
+c
 ## Full Structured Model
 
 - [Full Model (EN)](full_model/EN/)
