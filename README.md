@@ -39,6 +39,10 @@ problem.
 - [JP Theory](essay/JP/Illusion_of_Conversation_Compressed_Theory_JP.md)
 - [EN Theory](essay/EN/Illusion_of_Conversation_Compressed_Theory_EN.md)
 
+## The Foundation (Thinking Phase)
+
+- [The Structural Gap in Long-Term LLM Collaboration (EN)](Core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)
+
 ## Core Model
 
 - [Core Definition (EN)](core/EN/BRM_Core_Definition_EN.md)
