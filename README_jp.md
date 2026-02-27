@@ -1,6 +1,6 @@
-🌐 **Language / 言語**
-- 🇺🇸 English
-- 🇯🇵 [日本語版はこちら](README_jp.md)
+🌐 Language / 言語  
+- 🇺🇸 [English](README.md)  
+- 🇯🇵 日本語（current）
 
 # Branching Reference Model (BRM)
 
