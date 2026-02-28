@@ -27,12 +27,12 @@ It is a structural continuity problem.
 
 ## Structural Evolution of Internal Control
 
-AI control has evolved in layers:
-
 | Aspect | Role Prompting | Context Accumulation | Anchoring | BRM |
 |--------|---------------|---------------------|-----------|------|
 | Long-term stability | Low | Medium | High | **Very High** |
 | Drift resistance | Low | Medium | High | **Structural** |
+| Rule persistence | Low | Medium | **High** | **Very High** |
+| Role fixation | Temporary | Context-dependent | **Stable** | **Structural + Recoverable** |
 | Recoverability | No | Limited | Partial | **Yes** |
 | Structural visibility | Hidden | Hidden | Semi-explicit | **Explicit** |
 
