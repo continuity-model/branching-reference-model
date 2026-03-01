@@ -80,6 +80,24 @@ BRMは参照制御である。
 
 ---
 
+## エンジンの前にフレーム設計を
+
+現在のAI進化は、主に能力拡張を軸としている。
+推論性能、コンテキスト長、ベンチマーク。
+
+しかし長期協働が露わにする制約は別にある。
+それは構造的連続性である。
+
+エンジンを加速させる前に、
+それを支えるフレームを再考する必要がある。
+
+- 🇯🇵 [アーキテクチャはエンジンの前に — 長期LLM協働における最適化再定義](core/JP/Architecture_Before_Engine.md)
+- 🇺🇸 [Architecture Before Engine — Rethinking Optimization in Long-Term LLM Collaboration](core/EN/Architecture_Before_Engine.md)
+
+---
+
+---
+
 ## 最後に
 
 AIの崩壊はカオスではない。
