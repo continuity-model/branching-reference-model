@@ -191,7 +191,7 @@ Vertical axis: alignment with how human thinking shifts over time.
 ```{=html}
 <p align="center">
 ```
-`<img src="../../docs/img/fig01_engine_vs_frame_stability.png" width="700">`{=html}
+`<img src="/docs/img/fig01_engine_vs_frame_stability.png" width="700">`{=html}
 ```{=html}
 </p>
 ```
@@ -596,7 +596,7 @@ Who is carrying the structural weight?
 ```{=html}
 <p align="center">
 ```
-`<img src="../../docs/img/fig03_long_term_stability_over_time.png" width="700">`{=html}
+`<img src="/docs/img/fig03_long_term_stability_over_time.png" width="700">`{=html}
 ```{=html}
 </p>
 ```
@@ -740,7 +740,7 @@ Perhaps it is:
 ```{=html}
 <p align="center">
 ```
-`<img src="../../docs/img/fig02_expansion_vs_flexibility.png" width="700">`{=html}
+`<img src="/docs/img/fig02_expansion_vs_flexibility.png" width="700">`{=html}
 ```{=html}
 </p>
 ```
