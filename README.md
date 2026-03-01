@@ -79,6 +79,22 @@ These are different architectural variables.
 
 ---
 
+## Architecture Before Engine
+
+Most AI progress today focuses on capability expansion —
+reasoning depth, context length, benchmark performance.
+
+But long-term collaboration exposes a different constraint:
+structural continuity.
+
+Before accelerating the engine,
+we must examine the frame that holds it.
+
+- 🇺🇸 [Architecture Before Engine — Rethinking Optimization in Long-Term LLM Collaboration](core/EN/Architecture_Before_Engine.md)
+- 🇯🇵 [アーキテクチャはエンジンの前に — 長期LLM協働における最適化再定義](core/JP/Architecture_Before_Engine.md)
+
+---
+
 ## Full Structured Model
 
 - [Full Model (EN)](full_model/EN/)
