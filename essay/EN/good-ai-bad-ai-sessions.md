@@ -1,4 +1,8 @@
-# Why Do Some AI Conversations Feel Great While Others Feel Completely Off — Even With the Same Model?
+# Why Do Some AI Conversations Feel Great While Others Feel Completely Off?
+
+Even with the same AI model, some sessions feel surprisingly good while others quickly become frustrating.
+
+This essay explores why that happens.
 
 ## Introduction
 
