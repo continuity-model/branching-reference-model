@@ -337,7 +337,7 @@ AIは確率生成によって
 
 参考  
 
-→ [Anchoring Theory — Dissolving Prompts]https://github.com/continuity-model/branching-reference-model/blob/main/core/JP/Anchoring_Theory_Dissolving_Prompts.md)
+→ [Anchoring Theory — Dissolving Prompts]https://github.com/continuity-model/branching-reference-model/blob/main/core/JP/Anchoring_Theory_Dissolving_Prompts_JP.md)
 
 この現象は
 
