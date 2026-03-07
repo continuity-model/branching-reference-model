@@ -1,4 +1,4 @@
-# Why AI Collaboration Breaks:  
+# Why AI Collaboration Breaks  
 Failure Patterns and Structural Countermeasures
 
 ---
@@ -279,8 +279,7 @@ In other words, these failures are not caused by lack of intelligence, but by in
 
 Reference  
 
-Anchoring Theory — Dissolving Prompts  
-https://github.com/continuity-model/branching-reference-model/blob/main/core/EN/Anchoring_Theory_Dissolving_Prompts_EN.md
+→ [Anchoring Theory — Dissolving Prompts](https://github.com/continuity-model/branching-reference-model/blob/main/core/EN/Anchoring_Theory_Dissolving_Prompts_EN.md)
 
 Long conversations gradually introduce structural instability.
 
@@ -336,25 +335,10 @@ Each mode corresponds to a specific collaboration failure domain.
 
 ## Symptom Stable
 
-Purpose  
+Organizes real-world problems that begin with unclear symptoms.
 
-Organize real-world problems that begin with unclear symptoms.
-
-Structure
-
-Symptoms  
-Timeline  
-Severity  
-Risk  
-Next Action
-
-Availability
-
-Symptom Stable v1.2  
-Free release
-
-Symptom Stable v2.0 Universal  
-Bundle edition
+Documentation  
+→ [Symptom Stable](./symptom-stable.md)
 
 ---
 
@@ -366,7 +350,8 @@ Prevents long-form writing instability including:
 - argument drift
 - voice drift
 
-Maintains thesis locking and structure preservation.
+Documentation  
+→ [Writing Stable](./writing-stable.md)
 
 ---
 
@@ -378,7 +363,8 @@ Prevents debugging collapse such as:
 - hypothesis flooding
 - patch accumulation
 
-Focuses on single-hypothesis validation.
+Documentation  
+→ [Debugging Stable](./debugging-stable.md)
 
 ---
 
@@ -390,7 +376,8 @@ Prevents research interpretation failures including:
 - source merging
 - claim drift
 
-Maintains separation between source, claim, and interpretation.
+Documentation  
+→ [Research Stable](./research-stable.md)
 
 ---
 
@@ -402,7 +389,8 @@ Prevents legal interpretation errors including:
 - scope expansion
 - missing exceptions
 
-Maintains structural legal reading discipline.
+Documentation  
+→ [Legal Stable](./legal-stable.md)
 
 ---
 
@@ -414,7 +402,8 @@ Prevents system design failures including:
 - interface ambiguity
 - traceability loss
 
-Maintains specification-first architecture.
+Documentation  
+→ [Spec Stable](./spec-stable.md)
 
 ---
 
@@ -426,7 +415,8 @@ Prevents evaluation failures including:
 - unsupported judgments
 - fabricated specificity
 
-Requires explicit evaluation criteria before scoring.
+Documentation  
+→ [Evaluation Stable](./evaluation-stable.md)
 
 ---
 
