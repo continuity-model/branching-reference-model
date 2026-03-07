@@ -157,13 +157,13 @@ This makes AI collaboration more **predictable and reproducible**.
 
 ## Related Documents
 
-- [Symptom Stable](../stables/EN/symptom-stable.md)
-- [Writing Stable](../stables/EN/writing-stable.md)
-- [Debugging Stable](../stables/EN/debugging-stable.md)
-- [Research Stable](../stables/EN/research-stable.md)
-- [Legal Stable](../stables/EN/legal-stable.md)
-- [Spec Stable](../stables/EN/spec-stable.md)
-- [Evaluation Stable](../stables/EN/evaluation-stable.md)
+- [Symptom Stable](../../stables/EN/symptom-stable.md)
+- [Writing Stable](../../stables/EN/writing-stable.md)
+- [Debugging Stable](../../stables/EN/debugging-stable.md)
+- [Research Stable](../../stables/EN/research-stable.md)
+- [Legal Stable](../../stables/EN/legal-stable.md)
+- [Spec Stable](../../stables/EN/spec-stable.md)
+- [Evaluation Stable](../../stables/EN/evaluation-stable.md)
 
 ---
 
