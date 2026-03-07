@@ -16,9 +16,8 @@ In these situations, the most common failure is attempting to diagnose the cause
 
 However, premature diagnosis often leads to confusion, incorrect assumptions, and unstable reasoning.
 
-AI collaboration is especially prone to this failure pattern, because probabilistic completion encourages early explanations rather than structured observation.
-
-Without structured observation, conversations quickly shift toward speculative explanations, which can destabilize reasoning.
+AI collaboration is especially prone to this failure pattern because probabilistic completion encourages early explanations rather than structured observation.  
+Without structured observation, conversations quickly drift toward speculative explanations.
 
 Symptom Stable addresses this problem by enforcing a **symptom-first investigation workflow**.
 
@@ -42,7 +41,7 @@ These behaviors lead to unstable reasoning because the investigation begins with
 
 Symptom Stable introduces an operational discipline based on **triage-style reasoning**.
 
-Instead of immediately asking *what the cause is*, the mode forces the investigation to begin with observable information.
+Instead of immediately asking **what the cause might be**, the mode forces the investigation to begin with observable information.
 
 The workflow enforces five structural elements:
 
@@ -96,9 +95,9 @@ This structure keeps investigation grounded in observable information before cau
 ## Availability
 
 Symptom Stable v1.2  
-Free release
+Free Release
 
 Symptom Stable v2.0 Universal  
-Extended bundle edition
+Extended Bundle Edition
 
 (Gumroad link)
