@@ -7,7 +7,7 @@ Failure Patterns and Structural Countermeasures
 
 ![Common frustrations during AI collaboration](../../docs/img/ai-collaboration-stress.png)
 
-*Common frustrations during AI collaboration sessions.*
+**Typical pressures experienced during AI collaboration**
 
 Many AI collaboration problems appear random at first glance.
 However, when examined closely, the same structural failure patterns appear repeatedly.
