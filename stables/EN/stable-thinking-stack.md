@@ -34,7 +34,7 @@ The model prioritizes maintaining internal consistency with the conversation his
 
 This is why carefully written prompts often appear to “fade” during long interactions.
 
-![How Prompt Roles Fade](../docs/img/prompt_roles_fade.png)
+![How Prompt Roles Fade](../../docs/img/prompt_roles_fade.png)
 
 ---
 
