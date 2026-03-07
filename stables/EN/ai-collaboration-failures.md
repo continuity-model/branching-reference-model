@@ -5,7 +5,11 @@ Failure Patterns and Structural Countermeasures
 
 # 1. AI Collaboration Failures
 
-Many AI collaboration problems appear random at first glance.  
+![Common frustrations during AI collaboration](../../docs/img/ai-collaboration-stress.png)
+
+*Common frustrations during AI collaboration sessions.*
+
+Many AI collaboration problems appear random at first glance.
 However, when examined closely, the same structural failure patterns appear repeatedly.
 
 Below are representative examples from observed failure patterns.
