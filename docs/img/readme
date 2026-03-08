@@ -1,0 +1,104 @@
+# Diagram Index
+
+This directory contains visual diagrams used throughout the BRM and Stable Thinking Stack documentation.
+
+The diagrams illustrate structural concepts such as:
+
+- AI collaboration failures
+- prompt dissolution
+- structural reasoning anchors
+- Branching Reference Model behavior
+- long-term conversation stability
+
+These figures are referenced across the documentation to explain how AI collaboration evolves during extended interaction.
+
+---
+
+# Core Concept Diagrams
+
+## Prompt Behavior
+
+| Diagram | Description |
+|-------|-------------|
+| prompt_roles_fade.png | Demonstrates **Prompt Dissolution** during conversation progression |
+| prompt-control-vs-structural-control.png | Visual comparison between **Prompt Control and Structural Control** |
+
+---
+
+## AI Collaboration Failures
+
+| Diagram | Description |
+|-------|-------------|
+| ai-collaboration-stress.png | Common frustrations observed during AI collaboration |
+| diagram1_emotional_drift.png | Emotional drift during conversation |
+| diagram2_constraints.png | Constraint misalignment |
+| diagram3_open_judgment.png | Judgment instability in open reasoning |
+
+---
+
+# Branching Reference Model (BRM)
+
+| Diagram | Description |
+|-------|-------------|
+| linear_vs_brm_v1.png | Comparison between linear conversation and BRM |
+| linear_vs_brm_v2.png | Refined BRM comparison diagram |
+| linear_sequence.png | Linear context progression |
+| linear_dark_sequence.png | Collapse pattern of linear context |
+| spatial_reference_expansion.png | Spatial reference expansion in BRM |
+| brm_context_handover_flow.png | Context transfer flow in BRM |
+| brm_continuity_collapse_map.png | Structural collapse in uncontrolled conversations |
+| brm_positioning_map.png | Positioning of BRM in AI collaboration |
+| brm_positioning_map_final.png | Finalized BRM positioning diagram |
+
+---
+
+# BRM Structural Components
+
+| Diagram | Description |
+|-------|-------------|
+| brm_core_node_v1.png | Initial BRM core node structure |
+| brm_core_node_v2.png | Updated BRM node structure |
+| brm_core_slide.png | BRM core concept slide |
+| Anchored_Reference_Scoping_BRM.png | Anchored reference scoping in BRM |
+
+---
+
+# Concept Comparison Diagrams
+
+| Diagram | Description |
+|-------|-------------|
+| fig01_engine_vs_frame_stability.png | Engine vs structural framework stability |
+| fig02_expansion_vs_flexibility.png | Expansion vs flexibility trade-off |
+| fig03_long_term_stability_over_time.png | Long-term stability comparison |
+
+---
+
+# Logos
+
+| Diagram | Description |
+|-------|-------------|
+| BRM_concept_logo.png | Branching Reference Model concept logo |
+
+---
+
+# Usage
+
+Most diagrams are referenced from the following documentation areas:
+
+- core
+- stables
+- docs
+
+Example usage:
+
+![Prompt Dissolution](../docs/img/prompt_roles_fade.png)
+
+![Prompt vs Structural Control](../docs/img/prompt-control-vs-structural-control.png)
+
+---
+
+# Notes
+
+These diagrams are part of the **Stable Thinking Stack** and **Branching Reference Model** documentation.
+
+They serve as visual explanations for structural AI collaboration concepts rather than decorative illustrations.
