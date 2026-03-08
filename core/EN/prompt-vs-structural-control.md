@@ -1,6 +1,10 @@
 # Prompt Control vs Structural Control
 Why Prompt Engineering Alone Cannot Stabilize AI Collaboration
 
+**Language**
+
+- 🇺🇸 English (current)
+
 ---
 
 ## Introduction
@@ -154,6 +158,8 @@ Instead of instructing the model with prompts alone, collaboration operates thro
 
 ## Prompt Control vs Structural Control
 
+![Prompt Control vs Structural Control](../../docs/img/prompt-control-vs-structural-control.png)
+
 Prompt control:
 
 single instruction layer that attempts to guide behavior.
@@ -195,7 +201,7 @@ Structural control can be implemented through reasoning domains.
 
 Reference:
 
-→ Stable Thinking Stack
+→ [Stable Thinking Stack](./stable-thinking-stack.md)
 
 Each reasoning domain corresponds to a specific operational mode.
 
