@@ -284,7 +284,9 @@ Probabilistic completion generating unsupported specificity.
 
 # 2. Why This Happens
 
-These failures are not random mistakes.  
+![How Prompt Roles Fade](../../docs/img/prompt_roles_fade.png)
+
+These failures are not random mistakes.
 They emerge from structural properties of long AI conversations and context management.
 
 In other words, these failures are not caused by lack of intelligence, but by instability in how conversational context is maintained.
