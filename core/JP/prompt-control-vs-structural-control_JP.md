@@ -4,7 +4,7 @@
 **Language / 言語**
 
 - 🇯🇵 日本語（current）
-- 🇺🇸 [English](../EN/prompt-control-vs-structural-control.md)
+- 🇺🇸 [English](../EN/prompt-vs-structural-control.md)
 
 ---
 
