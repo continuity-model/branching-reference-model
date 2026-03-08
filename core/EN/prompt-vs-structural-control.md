@@ -4,9 +4,9 @@ Why Prompt Engineering Alone Cannot Stabilize AI Collaboration
 **Language**
 
 - 🇺🇸 English (current)
+- 🇯🇵 [日本語](../JP/prompt-control-vs-structural-control_JP.md)
 
 ---
-
 ## Introduction
 
 Most AI workflows attempt to control model behavior through prompts.
