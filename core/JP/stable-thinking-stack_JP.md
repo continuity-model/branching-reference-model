@@ -177,13 +177,13 @@ Stable Modes は
 
 ## 関連ドキュメント
 
-- [Symptom Stable](../../stables/EN/symptom-stable.md)
-- [Writing Stable](../../stables/EN/writing-stable.md)
-- [Debugging Stable](../../stables/EN/debugging-stable.md)
-- [Research Stable](../../stables/EN/research-stable.md)
-- [Legal Stable](../../stables/EN/legal-stable.md)
-- [Spec Stable](../../stables/EN/spec-stable.md)
-- [Evaluation Stable](../../stables/EN/evaluation-stable.md)
+- [Symptom Stable](../../stables/JP/symptom-stable_JP.md)
+- [Writing Stable](../../stables/JP/writing-stable_JP.md)
+- [Debugging Stable](../../stables/JP/debugging-stable_JP.md)
+- [Research Stable](../../stables/JP/research-stable_JP.md)
+- [Legal Stable](../../stables/JP/legal-stable_JP.md)
+- [Spec Stable](../../stables/JP/spec-stable_JP.md)
+- [Evaluation Stable](../../stables/JP/evaluation-stable_JP.md)
 
 ---
 
