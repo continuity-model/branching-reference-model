@@ -3,7 +3,7 @@
 **Language / 言語**
 
 - 🇺🇸 English (current)
-- 🇯🇵 [日本語](../JP/stable-thinking-stack.md)
+- 🇯🇵 [日本語](../JP/stable-thinking-stack_JP.md)
 ---
 
 AI collaboration often feels inconsistent.
