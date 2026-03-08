@@ -299,6 +299,8 @@ AIとの協働で発生する問題は、最初は偶然のように見えるこ
 
 # 2. なぜこれが起きるのか
 
+![How Prompt Roles Fade](../../docs/img/prompt_roles_fade.png)
+
 AI協働の不安定性には  
 主に2種類があります。
 
