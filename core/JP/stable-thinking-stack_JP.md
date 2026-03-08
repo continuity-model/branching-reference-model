@@ -1,5 +1,9 @@
 # Stable Thinking Stack
 ### AI協働のための構造モデル
+**Language / 言語**
+
+- 🇯🇵 日本語 (current)
+- 🇺🇸 [English](../EN/stable-thinking-stack.md)
 
 ---
 
