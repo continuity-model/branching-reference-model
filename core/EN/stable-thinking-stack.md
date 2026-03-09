@@ -53,16 +53,18 @@ Stable Modes are **specialized tools or weapons**.
 
 Each mode changes how reasoning is structured.
 
-    Default AI
-        │
-        ▼
-    Task appears
-        │
-        ▼
-    Select Stable Mode
-        │
-        ▼
-    Apply structured reasoning workflow
+```
+Default AI
+    │
+    ▼
+Task appears
+    │
+    ▼
+Select Stable Mode
+    │
+    ▼
+Apply structured reasoning workflow
+```
 
 The result is more stable collaboration.
 
@@ -72,33 +74,35 @@ The result is more stable collaboration.
 
 AI collaboration can be organized into seven reasoning disciplines.
 
-    Observation
-        │
-    Symptom Stable
+```
+Observation
+    │
+Symptom Stable
 
-    Expression
-        │
-    Writing Stable
+Expression
+    │
+Writing Stable
 
-    Debugging
-        │
-    Debugging Stable
+Debugging
+    │
+Debugging Stable
 
-    Investigation
-        │
-    Research Stable
+Investigation
+    │
+Research Stable
 
-    Interpretation
-        │
-    Legal Stable
+Interpretation
+    │
+Legal Stable
 
-    System Design
-        │
-    Spec Stable
+System Design
+    │
+Spec Stable
 
-    Judgment
-        │
-    Evaluation Stable
+Judgment
+    │
+Evaluation Stable
+```
 
 Each mode stabilizes a specific category of reasoning.
 
@@ -110,15 +114,17 @@ Instead of asking AI to perform every task in the same way, Stable Modes allow *
 
 Example:
 
-    Default AI
-          │
-          ├── Symptom Stable    → diagnosing unclear problems
-          ├── Writing Stable    → long-form writing
-          ├── Debugging Stable  → software debugging
-          ├── Research Stable   → structured investigation
-          ├── Legal Stable      → rule-based interpretation
-          ├── Spec Stable       → system specification
-          └── Evaluation Stable → criteria-based judgment
+```
+Default AI
+      │
+      ├── Symptom Stable    → diagnosing unclear problems
+      ├── Writing Stable    → long-form writing
+      ├── Debugging Stable  → software debugging
+      ├── Research Stable   → structured investigation
+      ├── Legal Stable      → rule-based interpretation
+      ├── Spec Stable       → system specification
+      └── Evaluation Stable → criteria-based judgment
+```
 
 This approach turns AI collaboration from **generic prompting** into **structured task modes**.
 
@@ -132,15 +138,21 @@ For example:
 
 Debugging requires:
 
-    observe → hypothesize → test
+```
+observe → hypothesize → test
+```
 
 Evaluation requires:
 
-    define criteria → compare → conclude
+```
+define criteria → compare → conclude
+```
 
 Writing requires:
 
-    thesis → structure → sections
+```
+thesis → structure → sections
+```
 
 A single reasoning mode cannot reliably support all of these tasks.
 
@@ -174,11 +186,15 @@ This makes AI collaboration more **predictable and reproducible**.
 
 ## Availability
 
-Stable Modes can be used individually or as a complete system bundle.
+Try the free entry mode:
+
+- 🧪 **[Try Symptom Stable (Free)](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
+
+Full Stable Modes bundle:
 
 - 📦 **[AI Collaboration Stable Modes Complete System Bundle](https://brmmodel.gumroad.com/l/cdves)**
 
-Full distribution page:
+All modules and releases:
 
 - 🌐 **[Stable Modes Collection](https://brmmodel.gumroad.com)**
 
@@ -188,12 +204,16 @@ Full distribution page:
 
 Stable Modes transform AI collaboration from:
 
-    one model
-    one reasoning style
+```
+one model
+one reasoning style
+```
 
 into:
 
-    one model
-    multiple structured reasoning modes
+```
+one model
+multiple structured reasoning modes
+```
 
 This enables **more reliable, controllable, and reproducible AI collaboration.**
