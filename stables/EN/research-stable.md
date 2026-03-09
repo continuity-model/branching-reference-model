@@ -110,4 +110,8 @@ This structure keeps research aligned with the original objective while preventi
 
 Research Stable v1.3
 
-(Gumroad link)
+- 🔬 **[Research Stable](https://brmmodel.gumroad.com/l/qkhgt)**
+
+AI Collaboration Stable Modes Complete System Bundle
+
+- 📦 **[AI Collaboration Stable Modes Complete System Bundle](https://brmmodel.gumroad.com/l/cdves)**
