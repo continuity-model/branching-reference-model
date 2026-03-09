@@ -100,4 +100,8 @@ This structure keeps specification work grounded in stable definitions and consi
 
 Spec Stable v1.1
 
-(Gumroad link)
+- 🧩 **[Spec Stable](https://brmmodel.gumroad.com/l/vwjnqx)**
+
+AI Collaboration Stable Modes Complete System Bundle
+
+- 📦 **[AI Collaboration Stable Modes Complete System Bundle](https://brmmodel.gumroad.com/l/cdves)**
