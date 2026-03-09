@@ -94,10 +94,10 @@ This structure keeps investigation grounded in observable information before cau
 
 ## Availability
 
-Symptom Stable v1.2  
-Free Release
+Free release:
 
-Symptom Stable v2.0 Universal  
-Extended Bundle Edition
+- 📦 **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
-(Gumroad link)
+Extended bundle edition:
+
+- 🧩 **[Symptom Stable v2.0 Universal — Bundle Edition](https://brmmodel.gumroad.com/l/cdves)**
