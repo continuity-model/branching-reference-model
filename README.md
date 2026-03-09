@@ -52,25 +52,43 @@ This repository explores the structural ideas behind this approach.
 
 ---
 
+# Free Stable Mode (Symptom)
+
+A lightweight practical tool derived from the structural ideas discussed in this repository.
+
+**Symptom Stable Mode** helps stabilize early-stage reasoning by enforcing structured observation before diagnosis.
+
+This prevents common AI collaboration failures such as:
+
+- premature conclusions  
+- hypothesis flooding  
+- reasoning drift  
+
+Free release:
+
+- 📦 **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
+
+This mode can be used independently and serves as a practical entry point to the structural concepts explored in BRM.
+
+---
+
 # How to Read This Repository
 
 This repository is organized as a progression from observed collaboration failures to a proposed structural model.
 
-```
-Observed failures
-        ↓
-Prompt dissolution
-        ↓
-Prompt vs structural control
-        ↓
-Structured reasoning domains
-        ↓
-Structural gap in current systems
-        ↓
-Anchoring theory
-        ↓
+Observed failures  
+↓  
+Prompt dissolution  
+↓  
+Prompt vs structural control  
+↓  
+Structured reasoning domains  
+↓  
+Structural gap in current systems  
+↓  
+Anchoring theory  
+↓  
 Branching Reference Model
-```
 
 Readers can start anywhere, but the sections above follow the conceptual progression used in this repository.
 
