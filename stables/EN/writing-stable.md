@@ -97,4 +97,8 @@ This structure prevents incremental text generation from gradually altering the 
 
 Writing Stable v1.3
 
-(Gumroad link)
+- ✍️ **[Writing Stable](https://brmmodel.gumroad.com/l/mxmtm)**
+
+AI Collaboration Stable Modes Complete System Bundle
+
+- 🧩 **[AI Collaboration Stable Modes Complete System Bundle](https://brmmodel.gumroad.com/l/cdves)**
