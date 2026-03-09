@@ -56,19 +56,30 @@ This repository explores the structural ideas behind this approach.
 
 A lightweight practical tool derived from the structural ideas discussed in this repository.
 
-**Symptom Stable Mode** helps stabilize early-stage reasoning by enforcing structured observation before diagnosis.
+**Symptom Stable Mode** stabilizes early-stage reasoning by enforcing structured observation before diagnosis or explanation.
 
-This prevents common AI collaboration failures such as:
+Instead of jumping directly to conclusions, the mode organizes the situation through a simple triage structure:
+
+- observation  
+- timeline  
+- severity  
+- potential risk  
+- clarification questions  
+
+This approach helps prevent several common AI collaboration failures such as:
 
 - premature conclusions  
 - hypothesis flooding  
 - reasoning drift  
+- missed critical observations  
+
+The package includes the core mode file, activation instructions, an operating guide, quick reference, and example failure cases, allowing the mode to be used as a practical standalone tool.
 
 Free release:
 
 - 📦 **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
-This mode can be used independently and serves as a practical entry point to the structural concepts explored in BRM.
+This mode can be used independently and also serves as a practical entry point to the structural reasoning ideas explored in BRM.nd serves as a practical entry point to the structural concepts explored in BRM.
 
 ---
 
