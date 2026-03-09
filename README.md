@@ -50,6 +50,9 @@ BRM proposes organizing interaction into **recoverable reference branches**, all
 
 This repository explores the structural ideas behind this approach.
 
+If you'd like to experience one of these structures in practice, you can try a free Stable Mode:  
+📦 **[Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
+
 ---
 
 # Free Stable Mode (Symptom)
