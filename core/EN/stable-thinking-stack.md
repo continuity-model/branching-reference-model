@@ -1,9 +1,11 @@
 # The Stable Thinking Stack
 ### A Structural Model for AI Collaboration
+
 **Language / 言語**
 
 - 🇺🇸 English (current)
 - 🇯🇵 [日本語](../JP/stable-thinking-stack_JP.md)
+
 ---
 
 AI collaboration often feels inconsistent.
@@ -167,6 +169,18 @@ This makes AI collaboration more **predictable and reproducible**.
 - [Legal Stable](../../stables/EN/legal-stable.md)
 - [Spec Stable](../../stables/EN/spec-stable.md)
 - [Evaluation Stable](../../stables/EN/evaluation-stable.md)
+
+---
+
+## Availability
+
+Stable Modes can be used individually or as a complete system bundle.
+
+- 📦 **[AI Collaboration Stable Modes Complete System Bundle](https://brmmodel.gumroad.com/l/cdves)**
+
+Full distribution page:
+
+- 🌐 **[Stable Modes Collection](https://brmmodel.gumroad.com)**
 
 ---
 
