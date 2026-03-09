@@ -108,4 +108,8 @@ This structure keeps debugging grounded in observable behavior and controlled ex
 
 Debugging Stable v1.0
 
-(Gumroad link)
+- 🐞 **[Debugging Stable](https://brmmodel.gumroad.com/l/vjnbp)**
+
+AI Collaboration Stable Modes Complete System Bundle
+
+- 📦 **[AI Collaboration Stable Modes Complete System Bundle](https://brmmodel.gumroad.com/l/cdves)**
