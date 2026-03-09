@@ -68,11 +68,17 @@ Apply structured reasoning workflow
 
 The result is more stable collaboration.
 
+If you'd like to experience how a Stable Mode works in practice, you can try the free entry mode:
+
+🧪 **[Try Symptom Stable (Free)](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
+
 ---
 
 ## The Stable Thinking Stack
 
 AI collaboration can be organized into seven reasoning disciplines.
+
+Each discipline represents a different **type of reasoning structure required for stable collaboration**.
 
 ```
 Observation
