@@ -100,4 +100,8 @@ This structure ensures that evaluation decisions remain grounded in explicit sta
 
 Evaluation Stable v1.2
 
-(Gumroad link)
+- 📊 **[Evaluation Stable](https://brmmodel.gumroad.com/l/pgovfk)**
+
+AI Collaboration Stable Modes Complete System Bundle
+
+- 📦 **[AI Collaboration Stable Modes Complete System Bundle](https://brmmodel.gumroad.com/l/cdves)**
