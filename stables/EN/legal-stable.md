@@ -100,4 +100,8 @@ This structure keeps legal reasoning grounded in identifiable sources and preven
 
 Legal Stable v1.3
 
-(Gumroad link)
+- ⚖️ **[Legal Stable](https://brmmodel.gumroad.com/l/meche)**
+
+AI Collaboration Stable Modes Complete System Bundle
+
+- 📦 **[AI Collaboration Stable Modes Complete System Bundle](https://brmmodel.gumroad.com/l/cdves)**
