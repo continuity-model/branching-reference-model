@@ -227,3 +227,14 @@ Which branch we are following.
 Which flower we are looking at.
 
 Sharing that reference point — that **perch** — may be one of the keys to making AI conversations more stable.
+
+---
+
+## Related Project
+
+This essay describes a common problem in AI conversations:  
+the loss of a shared reference point during long discussions.
+
+The **Branching Reference Model (BRM)** explores a structural approach to stabilizing long AI collaborations by maintaining explicit reference anchors during conversation.
+
+https://github.com/continuity-model/branching-reference-model
