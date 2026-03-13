@@ -238,3 +238,12 @@ the loss of a shared reference point during long discussions.
 The **Branching Reference Model (BRM)** explores a structural approach to stabilizing long AI collaborations by maintaining explicit reference anchors during conversation.
 
 https://github.com/continuity-model/branching-reference-model
+
+
+---
+
+## Next Article
+
+In the next article, we explore why long AI conversations drift and why the real issue may not be search — but reference.
+
+→ [Why Long AI Conversations Drift: The Reference Problem](ai_conversation_reference_problem.md)
