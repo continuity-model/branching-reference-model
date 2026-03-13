@@ -341,3 +341,11 @@ LLM
 Conversation Design  
 Context Drift  
 Human-AI Interaction
+
+---
+
+## Previous Article
+
+If you have not read the first article, it introduces the **forest metaphor** used throughout this essay.
+
+→ [AI Sees the Forest, Users See the Flower](../ai_sees_the_forest.md)
