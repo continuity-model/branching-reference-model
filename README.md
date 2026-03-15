@@ -48,10 +48,9 @@ Stable Long-Term Collaboration
 
 BRM proposes organizing interaction into **recoverable reference branches**, allowing reasoning to remain stable even as conversation context expands.
 
-This repository explores the structural ideas behind this approach.
+If you'd like to experience one of these structures in practice, you can try a free Stable Mode:
 
-If you'd like to experience one of these structures in practice, you can try a free Stable Mode:  
-📦 **[Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
+→ **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
 ---
 
@@ -75,9 +74,9 @@ Stable Modes (Reasoning Protocols)
 ↓  
 LLM (Inference Engine)
 
-BRM organizes the structure of discussion,  
-Stable Modes guide reasoning behavior,  
-and the language model performs inference.
+BRM organizes the structure of discussion.  
+Stable Modes guide reasoning behavior.  
+The language model performs inference.
 
 This separation allows reasoning strategies to evolve without destabilizing conversation structure.
 
@@ -85,34 +84,60 @@ This separation allows reasoning strategies to evolve without destabilizing conv
 
 # Repository Structure
 
-This repository contains two main parts:
+This repository is organized as a progression from observed collaboration failures to a structural model.
 
-1. **Conceptual essays** explaining the problems observed in long AI conversations  
-2. **The BRM core model** describing the proposed structural solution
+Observed failures  
+↓  
+Prompt dissolution  
+↓  
+Reference instability  
+↓  
+Stable reasoning environments  
+↓  
+Branching Reference Model
 
-## Essays (Conceptual Background)
+The repository contains two main parts:
 
-These essays explore the observed structural issues in long AI interactions.
+• Conceptual essays explaining the problem space  
+• The core BRM model describing the proposed structure
 
-- [`essay/EN/ai_sees_the_forest.md`](essay/EN/ai_sees_the_forest.md)  
-- [`essay/EN/ai_conversation_reference_problem.md`](essay/EN/ai_conversation_reference_problem.md)  
-- [`essay/EN/ai_stable_environment_and_perch.md`](essay/EN/ai_stable_environment_and_perch.md)
+---
 
-The essays introduce several recurring patterns such as:
+# Essays
 
-- perspective mismatch between users and AI  
-- instability of conversational references  
-- the need for stable reasoning environments  
+These essays explore structural issues observed in long AI conversations.
 
-These observations gradually lead to the structural idea behind BRM.
+### AI Sees the Forest
 
-## Core Model
+Perspective differences between users and AI during reasoning.
 
-The formal conceptual description of the model is provided here:
+→ **[Read essay](essay/EN/ai_sees_the_forest.md)**
 
-- [`core/EN/BRM_Core_v2.md`](core/EN/BRM_Core_v2.md)
+---
 
-This document defines the core primitives of the **Branching Reference Model**:
+### The Conversation Reference Problem
+
+How reference drift appears in long AI conversations.
+
+→ **[Read essay](essay/EN/ai_conversation_reference_problem.md)**
+
+---
+
+### Stable Environment and Perch
+
+The idea of stabilizing reasoning through structured reference anchors.
+
+→ **[Read essay](essay/EN/ai_stable_environment_and_perch.md)**
+
+---
+
+# Core Model
+
+The formal conceptual description of the Branching Reference Model.
+
+→ **[BRM Core Model v2](core/EN/BRM_Core_v2.md)**
+
+This document defines the core primitives of BRM:
 
 - Nodes  
 - Branches  
@@ -143,11 +168,19 @@ This approach helps prevent several common AI collaboration failures such as:
 - reasoning drift  
 - missed critical observations  
 
-The package includes the core mode file, activation instructions, an operating guide, quick reference, and example failure cases, allowing the mode to be used as a practical standalone tool.
+The package includes:
+
+- the core mode file  
+- activation instructions  
+- an operating guide  
+- quick reference  
+- example failure cases  
+
+allowing the mode to be used as a practical standalone tool.
 
 Free release:
 
-- 📦 **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
+→ **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
 This mode can be used independently and also serves as a practical entry point to the structural reasoning ideas explored in BRM.
 
@@ -155,18 +188,14 @@ This mode can be used independently and also serves as a practical entry point t
 
 # How to Read This Repository
 
-This repository is organized as a progression from observed collaboration failures to a proposed structural model.
+Readers can start anywhere, but the following order reflects the conceptual progression:
 
-Observed failures  
+Essays  
 ↓  
-Prompt dissolution  
+Observed collaboration failures  
 ↓  
-Prompt vs structural control  
+Reference instability  
 ↓  
-Stable reasoning environments  
-↓  
-Structural gap in current systems  
+Structural reasoning environments  
 ↓  
 Branching Reference Model
-
-Readers can start anywhere, but the essays followed by the core model provide the clearest conceptual progression.
