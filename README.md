@@ -11,6 +11,8 @@
 
 A conceptual framework exploring structural stability in long-term AI collaboration.
 
+![BRM Reference Structure](docs/img/brm_reference_structure.png)
+
 ---
 
 # BRM in 30 Seconds
