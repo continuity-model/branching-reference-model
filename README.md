@@ -11,6 +11,10 @@
 
 A conceptual framework exploring structural stability in long-term AI collaboration.
 
+
+Long conversations collapse because all tokens compete for attention.
+BRM introduces a scoped reference structure.
+
 ![BRM Reference Structure](docs/img/brm_reference_structure.png)
 
 ---
