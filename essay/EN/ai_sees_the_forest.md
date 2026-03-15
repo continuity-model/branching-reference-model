@@ -7,8 +7,8 @@ This article is part of a series exploring structural problems in long AI conver
 **Series Index**
 
 1. **AI Sees the Forest** *(current)*
-2. [The Conversation Reference Problem](ai_conversation_reference_problem.md)
-3. [Stable Environment and Perch](ai_stable_environment_and_perch.md)
+2. [The Conversation Reference Problem](./ai_conversation_reference_problem.md)
+3. [Stable Environment and Perch](./ai_stable_environment_and_perch.md)
 
 The conceptual conclusion of this series is the **BRM Core Model**:
 
