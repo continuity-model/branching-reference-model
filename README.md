@@ -21,7 +21,7 @@ Prompt
 ↓  
 Model  
 ↓  
-Output
+Output  
 
 Prompts can strongly influence the initial response.
 
@@ -55,6 +55,34 @@ If you'd like to experience one of these structures in practice, you can try a f
 
 ---
 
+# Concept Overview
+
+The Branching Reference Model separates three layers of AI collaboration:
+
+Conversation Structure  
+↓  
+Reasoning Process  
+↓  
+Inference Engine  
+
+In this architecture:
+
+User  
+↓  
+BRM (Conversation Structure)  
+↓  
+Stable Modes (Reasoning Protocols)  
+↓  
+LLM (Inference Engine)
+
+BRM organizes the structure of discussion,  
+Stable Modes guide reasoning behavior,  
+and the language model performs inference.
+
+This separation allows reasoning strategies to evolve without destabilizing conversation structure.
+
+---
+
 # Repository Structure
 
 This repository contains two main parts:
@@ -72,9 +100,9 @@ These essays explore the observed structural issues in long AI interactions.
 
 The essays introduce several recurring patterns such as:
 
-- perspective mismatch between users and AI
-- instability of conversational references
-- the need for stable reasoning environments
+- perspective mismatch between users and AI  
+- instability of conversational references  
+- the need for stable reasoning environments  
 
 These observations gradually lead to the structural idea behind BRM.
 
