@@ -214,3 +214,16 @@ BRM formalizes the relationship between **stable environments, perches, and bran
 The model is published as part of the BRM project:
 
 https://github.com/continuity-model/branching-reference-model
+
+---
+
+## Series Navigation
+
+← **Previous:** [The Conversation Reference Problem](ai_conversation_reference_problem.md)
+
+→ **Next:** (series conclusion → BRM Core)
+
+**BRM Core Model:**  
+[Branching Reference Model Core v2](../../core/EN/BRM_Core_v2.md)
+
+---
