@@ -33,10 +33,11 @@ Output
 
 Prompts can strongly influence the **initial response**.
 
-However, during longer conversations their influence often weakens.  
-This repository refers to this phenomenon as **Prompt Dissolution**.
+However, during longer conversations their influence often weakens.
 
-As conversational context expands, model behavior may increasingly follow:
+This repository refers to this phenomenon as **Prompt Dissolution** — the gradual weakening of prompt influence as conversational context expands.
+
+As conversational context grows, model behavior may increasingly follow:
 
 - conversational coherence  
 - probabilistic completion  
@@ -62,9 +63,35 @@ If you'd like to experience one of these structures in practice, you can try a f
 
 ---
 
+# Why This Matters
+
+Current AI systems reason over **linear conversational context**.
+
+As interactions grow longer, this structure creates several problems:
+
+- references drift across unrelated parts of the conversation  
+- reasoning paths interfere with each other  
+- important assumptions become diluted by unrelated tokens  
+
+These effects often appear as:
+
+- hallucinations  
+- inconsistent reasoning  
+- sudden loss of context  
+
+However, many of these failures are **structural rather than purely model limitations**.
+
+BRM proposes that stabilizing the **reference structure of conversations** can significantly improve long-term collaboration with AI systems.
+
+Instead of treating conversation history as a single expanding stream, BRM introduces **structured reference organization**.
+
+This allows reasoning paths to remain stable even as conversations grow large.
+
+---
+
 # Concept Overview
 
-The Branching Reference Model separates three layers of AI collaboration:
+The Branching Reference Model separates three conceptual layers of AI collaboration:
 
 Conversation Structure  
 ↓  
@@ -72,15 +99,15 @@ Reasoning Process
 ↓  
 Inference Engine  
 
-In this architecture:
+In this view:
 
-User  
+User interacts with the language model  
 ↓  
-BRM (Conversation Structure)  
+The **conversation context is organized using BRM reference structures**  
 ↓  
-Stable Modes (Reasoning Protocols)  
+Stable Modes guide reasoning behavior  
 ↓  
-LLM (Inference Engine)
+The language model performs inference
 
 BRM organizes the **structure of discussion**.  
 Stable Modes guide **reasoning behavior**.  
