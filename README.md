@@ -9,11 +9,13 @@
 
 ![Linear vs BRM](docs/img/linear_vs_brm_v2.png)
 
-A conceptual framework exploring structural stability in long-term AI collaboration.
+A structural model for stabilizing long AI conversations.
 
+Long conversations often collapse because **all tokens compete for attention inside a single linear context**.
 
-Long conversations collapse because all tokens compete for attention.
-BRM introduces a scoped reference structure.
+As discussions grow, references drift, assumptions blur, and reasoning paths interfere with each other.
+
+BRM introduces a **scoped reference structure** designed to organize conversation context and preserve reasoning stability.
 
 ![BRM Reference Structure](docs/img/brm_reference_structure.png)
 
@@ -21,7 +23,7 @@ BRM introduces a scoped reference structure.
 
 # BRM in 30 Seconds
 
-Most AI workflows rely on prompt control:
+Most AI workflows rely on **prompt control**:
 
 Prompt  
 ↓  
@@ -29,9 +31,9 @@ Model
 ↓  
 Output  
 
-Prompts can strongly influence the initial response.
+Prompts can strongly influence the **initial response**.
 
-However, during long conversations their influence often weakens.  
+However, during longer conversations their influence often weakens.  
 This repository refers to this phenomenon as **Prompt Dissolution**.
 
 As conversational context expands, model behavior may increasingly follow:
@@ -44,7 +46,7 @@ rather than the original prompt instructions.
 
 The **Branching Reference Model (BRM)** explores a structural alternative.
 
-Instead of relying solely on prompts, BRM investigates how reference structures may stabilize long interaction chains.
+Instead of relying solely on prompts, BRM investigates how **reference structures** may stabilize long interaction chains.
 
 Prompt  
 + Structural Anchors  
@@ -52,7 +54,7 @@ Prompt
 ↓  
 Stable Long-Term Collaboration
 
-BRM proposes organizing interaction into **recoverable reference branches**, allowing reasoning to remain stable even as conversation context expands.
+**BRM organizes conversations into recoverable reference branches**, allowing reasoning paths to remain stable even as interaction history expands.
 
 If you'd like to experience one of these structures in practice, you can try a free Stable Mode:
 
@@ -80,9 +82,9 @@ Stable Modes (Reasoning Protocols)
 ↓  
 LLM (Inference Engine)
 
-BRM organizes the structure of discussion.  
-Stable Modes guide reasoning behavior.  
-The language model performs inference.
+BRM organizes the **structure of discussion**.  
+Stable Modes guide **reasoning behavior**.  
+The language model performs **inference**.
 
 This separation allows reasoning strategies to evolve without destabilizing conversation structure.
 
@@ -90,9 +92,11 @@ This separation allows reasoning strategies to evolve without destabilizing conv
 
 # Repository Structure
 
-This repository is organized as a progression from observed collaboration failures to a structural model.
+This repository explores **structural failures in long AI collaboration** and proposes a model to address them.
 
-Observed failures  
+Conceptual progression:
+
+Observed collaboration failures  
 ↓  
 Prompt dissolution  
 ↓  
@@ -104,8 +108,8 @@ Branching Reference Model
 
 The repository contains two main parts:
 
-• Conceptual essays explaining the problem space  
-• The core BRM model describing the proposed structure
+• **Conceptual essays** describing observed structural issues in AI conversations  
+• **The BRM core model** describing the proposed structural framework
 
 ---
 
@@ -196,12 +200,7 @@ This mode can be used independently and also serves as a practical entry point t
 
 Readers can start anywhere, but the following order reflects the conceptual progression:
 
-Essays  
-↓  
-Observed collaboration failures  
-↓  
-Reference instability  
-↓  
-Structural reasoning environments  
-↓  
-Branching Reference Model
+1. Essays — observed collaboration failures  
+2. Reference instability in long conversations  
+3. Structural reasoning environments  
+4. Branching Reference Model
