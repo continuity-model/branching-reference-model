@@ -1,3 +1,17 @@
+## Series: Understanding AI Conversation Structure
+
+This article is part of a series exploring structural problems in long AI conversations and the ideas that eventually led to the **Branching Reference Model (BRM)**.
+
+**Series Index**
+
+1. [AI Sees the Forest](./ai_sees_the_forest.md)  
+2. [The Conversation Reference Problem](./ai_conversation_reference_problem.md)  
+3. **Stable Environment and Perch** *(current)*
+
+The conceptual conclusion of this series is the **BRM Core Model**:
+
+→ [Branching Reference Model Core v2](../../core/EN/BRM_Core_v2.md)
+
 # Bringing AI Down Into the Forest  
 ### Stable Environments and Perch
 
