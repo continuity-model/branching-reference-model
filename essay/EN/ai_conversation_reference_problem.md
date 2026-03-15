@@ -344,8 +344,13 @@ Human-AI Interaction
 
 ---
 
-## Previous Article
+## Series Navigation
 
-If you have not read the first article, it introduces the **forest metaphor** used throughout this essay.
+← **Previous:** [AI Sees the Forest](ai_sees_the_forest.md)
 
-→ [AI Sees the Forest, Users See the Flower](ai_sees_the_forest.md)
+→ **Next:** [Stable Environment and Perch](ai_stable_environment_and_perch.md)
+
+**BRM Core Model:**  
+[Branching Reference Model Core v2](../../core/EN/BRM_Core_v2.md)
+
+---
