@@ -242,8 +242,13 @@ https://github.com/continuity-model/branching-reference-model
 
 ---
 
-## Next Article
+## Series Navigation
 
-In the next article, we explore why long AI conversations drift and why the real issue may not be search — but reference.
+← **Previous:** (start of series)
 
-→ [Why Long AI Conversations Drift: The Reference Problem](ai_conversation_reference_problem.md)
+→ **Next:** [The Conversation Reference Problem](ai_conversation_reference_problem.md)
+
+**BRM Core Model:**  
+[Branching Reference Model Core v2](../../core/EN/BRM_Core_v2.md)
+
+---
