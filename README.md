@@ -55,6 +55,45 @@ If you'd like to experience one of these structures in practice, you can try a f
 
 ---
 
+# Repository Structure
+
+This repository contains two main parts:
+
+1. **Conceptual essays** explaining the problems observed in long AI conversations  
+2. **The BRM core model** describing the proposed structural solution
+
+## Essays (Conceptual Background)
+
+These essays explore the observed structural issues in long AI interactions.
+
+- [`essay/EN/ai_sees_the_forest.md`](essay/EN/ai_sees_the_forest.md)  
+- [`essay/EN/ai_conversation_reference_problem.md`](essay/EN/ai_conversation_reference_problem.md)  
+- [`essay/EN/ai_stable_environment_and_perch.md`](essay/EN/ai_stable_environment_and_perch.md)
+
+The essays introduce several recurring patterns such as:
+
+- perspective mismatch between users and AI
+- instability of conversational references
+- the need for stable reasoning environments
+
+These observations gradually lead to the structural idea behind BRM.
+
+## Core Model
+
+The formal conceptual description of the model is provided here:
+
+- [`core/EN/BRM_Core_v2.md`](core/EN/BRM_Core_v2.md)
+
+This document defines the core primitives of the **Branching Reference Model**:
+
+- Nodes  
+- Branches  
+- Reference Scope  
+
+and explains how they organize long-term AI collaboration.
+
+---
+
 # Free Stable Mode (Symptom)
 
 A lightweight practical tool derived from the structural ideas discussed in this repository.
@@ -82,7 +121,7 @@ Free release:
 
 - 📦 **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
-This mode can be used independently and also serves as a practical entry point to the structural reasoning ideas explored in BRM.nd serves as a practical entry point to the structural concepts explored in BRM.
+This mode can be used independently and also serves as a practical entry point to the structural reasoning ideas explored in BRM.
 
 ---
 
@@ -96,255 +135,10 @@ Prompt dissolution
 ↓  
 Prompt vs structural control  
 ↓  
-Structured reasoning domains  
+Stable reasoning environments  
 ↓  
 Structural gap in current systems  
 ↓  
-Anchoring theory  
-↓  
 Branching Reference Model
 
-Readers can start anywhere, but the sections above follow the conceptual progression used in this repository.
-
----
-
-# What This Repository Proposes
-
-This repository explores a structural perspective on AI collaboration.
-
-Many current approaches attempt to control model behavior through methods such as:
-
-- prompt engineering  
-- larger context windows  
-- improved reasoning capability  
-
-These approaches primarily expand **model capability**.
-
-This repository instead investigates **structural continuity in long interaction chains**.
-
-The central idea explored here is that stable AI collaboration may benefit from:
-
-- explicit reference anchors  
-- structured reasoning domains  
-- controlled reasoning scope  
-- recoverable reference structures  
-
-The Branching Reference Model (BRM) is presented as a conceptual framework that organizes these structural ideas.
-
-Rather than proposing a specific implementation, the repository explores a **paradigm for structural governance of AI reasoning during extended collaboration**.
-
----
-
-# Why AI Collaboration Breaks
-
-Long conversations with AI systems often appear stable.
-
-However, beneath the surface several patterns may emerge:
-
-- meaning drift  
-- dissolved reference anchors  
-- contextual reinterpretation  
-- accumulation of internal bias  
-
-These effects are often interpreted as model inconsistency.
-
-In many cases, they may instead reflect **structural continuity challenges in long interaction chains**.
-
-Commonly observed patterns include:
-
-- premature diagnosis instead of observation  
-- argument drift in long writing sessions  
-- hypothesis flooding during debugging  
-- ghost sources during research  
-- definition drift in legal reasoning  
-- specification instability in design discussions  
-- evaluation without explicit criteria  
-
-Detailed breakdown:
-
-- 🇺🇸 [Why AI Collaboration Breaks](stables/EN/ai-collaboration-failures.md)  
-- 🇯🇵 [なぜAIとの協働は崩れるのか](stables/JP/ai-collaboration-failures_JP.md)
-
-![AI Collaboration Stress](docs/img/ai-collaboration-stress.png)
-
----
-
-# Prompt Dissolution
-
-Prompts are commonly used to influence model behavior.
-
-In many cases, prompts strongly shape the **initial generation context**.
-
-During longer interactions, however, the influence of the initial prompt may weaken.
-
-This effect is referred to here as **Prompt Dissolution**.
-
-![How Prompt Roles Fade](docs/img/prompt_roles_fade.png)
-
-Early responses may closely reflect prompt instructions, while later responses may increasingly follow conversational coherence and probabilistic completion patterns.
-
----
-
-# Prompt Control vs Structural Control
-
-Prompt engineering influences **initial model behavior**.
-
-Long collaborative sessions may benefit from additional structural constraints.
-
-![Prompt Control vs Structural Control](docs/img/prompt-control-vs-structural-control.png)
-
-Prompt control:
-
-- a single instruction layer influencing early generation
-
-Structural control may introduce:
-
-- explicit reasoning structures  
-- reference anchors  
-- operational modes  
-- workflow constraints  
-
-Further explanation:
-
-- 🇺🇸 [Prompt Control vs Structural Control](core/EN/prompt-vs-structural-control.md)  
-- 🇯🇵 [Prompt Control vs Structural Control](core/JP/prompt-control-vs-structural-control_JP.md)
-
----
-
-# Structured Reasoning Domains
-
-Different collaboration tasks involve different reasoning behaviors.
-
-One way to organize these behaviors is through **task-specific reasoning domains**.
-
-This repository refers to this conceptual organization as the **Stable Thinking Stack**.
-
-- 🇺🇸 [Stable Thinking Stack](core/EN/stable-thinking-stack.md)  
-- 🇯🇵 [Stable Thinking Stack](core/JP/stable-thinking-stack_JP.md)
-
-Examples of reasoning domains include:
-
-- observation  
-- writing  
-- debugging  
-- research  
-- legal interpretation  
-- specification design  
-- evaluation  
-
-Each domain addresses a different class of reasoning instability.
-
----
-
-# Structural Evolution of Internal Control
-
-| Aspect | Role Prompting | Context Accumulation | Anchoring | BRM |
-|------|------|------|------|------|
-| Long-term stability | Low | Medium | High | Very High |
-| Drift resistance | Low | Medium | High | Structural |
-| Rule persistence | Low | Medium | High | Very High |
-| Role fixation | Temporary | Context-dependent | Stable | Structural + Recoverable |
-| Recoverability | No | Limited | Partial | Yes |
-| Structural visibility | Hidden | Hidden | Semi-explicit | Explicit |
-
-Conceptual interpretation:
-
-- **Role Prompting** — behavioral instructions applied at initialization  
-- **Context Accumulation** — stability emerging from conversational memory  
-- **Anchoring** — prioritization of internal reference structures  
-- **BRM** — explicit scoping architecture with recoverable reference slots  
-
----
-
-# The Structural Gap
-
-Current AI research often focuses on expanding capability.
-
-Examples include:
-
-- larger context windows  
-- deeper reasoning chains  
-- benchmark optimization  
-
-However, long-term interaction sometimes exposes a different constraint:
-
-**structural continuity of reference control.**
-
-Discussion:
-
-- 🇺🇸 [The Structural Gap in Long-Term LLM Collaboration](core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)  
-- 🇯🇵 [The Structural Gap in Long-Term LLM Collaboration](core/JP/Structural_Gap_in_Long_Term_LLM_Collaboration_JP.md)
-
----
-
-# Before the Model — Anchoring Theory
-
-Prompts may dissolve over time.
-
-During interaction, model behavior may instead become influenced by the strongest internal reference structures that emerge during conversation.
-
-Anchoring theory explores this dynamic.
-
-- 🇺🇸 [Anchoring Theory — Dissolving Prompts and the Permanent Anchor](core/EN/Anchoring_Theory_Dissolving_Prompts_EN.md)  
-- 🇯🇵 [アンカーリング理論 — 溶ける入浴剤と溶けない碇](core/JP/Anchoring_Theory_Dissolving_Prompts_JP.md)
-
----
-
-# Core Model
-
-The Branching Reference Model (BRM) proposes a structural approach to maintaining reference continuity during extended collaboration.
-
-Core definition:
-
-- 🇺🇸 [Core Definition](core/EN/BRM_Core_Definition_EN.md)  
-- 🇯🇵 [Core Definition](core/JP/BRM_Core_Definition_JP.md)
-
----
-
-# Capability Expansion vs Structural Control
-
-Approaches such as:
-
-- RAG  
-- extended context windows  
-- reasoning optimization  
-
-expand **capability**.
-
-BRM explores a different dimension:
-
-**reference scope stability during long interaction chains.**
-
-These dimensions address different aspects of AI collaboration architecture.
-
----
-
-# Architecture Before Engine
-
-Many recent developments focus on increasing model capability.
-
-Long interaction scenarios may highlight the importance of **structural continuity** alongside capability.
-
-This perspective is explored in:
-
-- 🇺🇸 [Architecture Before Engine — Rethinking Optimization in Long-Term LLM Collaboration](core/EN/Architecture_Before_Engine.md)  
-- 🇯🇵 [アーキテクチャはエンジンの前に](core/JP/Architecture_Before_Engine.md)
-
----
-
-# Full Structured Model
-
-- 🇺🇸 [Full Model](full_model/EN/)  
-- 🇯🇵 [Full Model](full_model/JP/)
-
----
-
-# Final Thought
-
-AI failure is not necessarily chaos.
-
-In many cases it may reflect structural forces acting on long interaction chains.
-
-Expanding context increases the size of the ocean.
-
-Structural anchors may help determine how navigation occurs within it.
+Readers can start anywhere, but the essays followed by the core model provide the clearest conceptual progression.
