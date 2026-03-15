@@ -1,6 +1,4 @@
----
-
-# Series: Understanding AI Conversation Structure
+## Series: Understanding AI Conversation Structure
 
 This article is part of a series exploring structural problems in long AI conversations and the ideas that eventually led to the **Branching Reference Model (BRM)**.
 
@@ -13,8 +11,6 @@ This article is part of a series exploring structural problems in long AI conver
 The conceptual conclusion of this series is the **BRM Core Model**:
 
 → [Branching Reference Model Core v2](../../core/EN/BRM_Core_v2.md)
-
----
 
 # AI Sees the Forest. Users See the Flower
 ### Why AI Conversations Need a Shared Perch
