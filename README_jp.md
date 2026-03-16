@@ -156,6 +156,30 @@ Branching Reference Model
 
 ---
 
+# Architecture Before Engine
+
+長期AI協働におけるもう一つの重要な視点は、
+
+**能力拡張よりも先に構造設計を考える必要がある**
+
+という点である。
+
+現在のAI進化は主に次の方向で進んでいる。
+
+- 推論性能
+- コンテキスト長
+- モデル能力
+
+しかし長期協働で露わになる問題は、
+
+**能力ではなく構造の問題**である場合がある。
+
+この視点については以下の文書で説明している。
+
+→ **[Architecture Before Engine](core/JP/Architecture_Before_Engine.md)**
+
+---
+
 # Essays（Japanese）
 
 BRMに関する日本語エッセイは Zenn に掲載している。
