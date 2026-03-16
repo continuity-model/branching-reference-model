@@ -216,6 +216,8 @@ BRM intentionally defines only a minimal set of structural primitives.
 
 Higher-level organizational constructs belong to operational layers rather than the core model.
 
+![BRM Reference Structure](../../docs/img/brm_reference_structure.png)
+
 The core primitives of BRM are:
 
 - **Nodes**  
