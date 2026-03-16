@@ -1,202 +1,235 @@
-🌐 Language / 言語  
-- 🇺🇸 [English](README.md)  
+🌐 **Language / 言語**
+
+- 🇺🇸 [English](README.md)
 - 🇯🇵 日本語（current）
-
-# Branching Reference Model (BRM)
-
-![Linear vs BRM](/docs/img/linear_vs_brm_v2.png)
-
-長期的なAI協働における構造的安定性を探るための概念フレームワーク。
 
 ---
 
-## BRMを30秒で
+# Branching Reference Model (BRM)
 
-現在の多くのAIワークフローは、プロンプトによってAIの挙動を制御しようとする。
+A structural model for stabilizing long AI conversations.
+
+![Linear vs BRM](docs/img/linear_vs_brm_v2.png)
+
+長いAI対話では、すべてのトークンが **単一の線形コンテキスト** の中で競合する。
+
+対話が長くなるにつれ、
+
+- 参照が漂流する  
+- 前提が曖昧になる  
+- 推論経路が互いに干渉する  
+
+といった問題が発生する。
+
+BRMは **参照スコープを持つ構造** を導入することで、  
+長期的な対話における推論の安定性を維持することを目指す。
+
+![BRM Reference Structure](docs/img/brm_reference_structure.png)
+
+---
+
+# BRMを30秒で
+
+現在の多くのAIワークフローは **プロンプト制御（Prompt Control）** に依存している。
 
 Prompt  
 ↓  
 Model  
 ↓  
-Output
+Output  
 
-プロンプトは初期の出力に強く影響を与える。
+プロンプトは **初期の出力** に強く影響を与える。
 
-しかし対話が長くなるにつれ、その影響は徐々に弱まることがある。  
-本リポジトリではこの現象を **Prompt Dissolution（プロンプト溶解）** と呼ぶ。
+しかし対話が長くなるにつれて、その影響は弱まることがある。
 
-コンテキストが拡大するにつれ、モデルの挙動は次の要素に従う傾向が強くなる。
+本リポジトリではこの現象を  
+**Prompt Dissolution（プロンプト溶解）** と呼ぶ。
 
-- 会話の整合性  
-- 確率的補完  
-- 内部参照構造  
+対話コンテキストが拡大すると、モデルの挙動は次の要素に従う傾向が強くなる。
 
-つまり、最初のプロンプトよりも **対話中に形成された参照構造** が優先されることがある。
+- conversational coherence（会話整合性）  
+- probabilistic completion（確率的補完）  
+- internal reference structures（内部参照構造）  
+
+つまり、最初のプロンプトではなく  
+**対話中に形成された参照構造** が優先されることがある。
 
 **Branching Reference Model（BRM）** は、この問題に対する構造的アプローチを探る。
 
 Prompt  
-＋ 構造アンカー  
-＋ 参照スコープ制御  
+＋ Structural Anchors（構造アンカー）  
+＋ Controlled Reference Scope（参照スコープ制御）  
 ↓  
-長期的な協働安定性
+Stable Long-Term Collaboration（長期協働安定性）
 
-BRMは対話を **復旧可能な参照分岐（reference branches）** として整理することで、  
-コンテキストが拡張しても推論の安定性を維持する可能性を探る。
+BRMは対話を **復旧可能な参照分岐（reference branches）** として整理する。
 
-本リポジトリは、その構造的アイデアを探究するものである。
+これは  
+**異なる推論経路を独立した参照単位として保持する構造**  
+を意味する。
 
----
+この構造により、対話履歴が拡張しても  
+推論経路の安定性を保つことを目指す。
 
-## なぜAIとの協働は崩壊するのか
+実際にこの構造の一部を体験したい場合は、無料の Stable Mode を試すことができる。
 
-AIとの対話が長くなるにつれ、  
-表面上は安定しているように見えても、水面下では構造的浸食が進行する。
-
-- 意味の変質  
-- 錨の溶解  
-- コンテキストの崩壊  
-- 内部バイアスの蓄積  
-
-これは知能の敗北ではない。  
-構造的な連続性の問題である。
-
-より詳しい失敗パターンの整理：
-
-- 🇯🇵 [なぜAIとの協働は崩れるのか](stables/JP/ai-collaboration-failures_JP.md)  
-- 🇺🇸 [Why AI Collaboration Breaks](stables/EN/ai-collaboration-failures.md)
-
-![AI Collaboration Stress](docs/img/ai-collaboration-stress.png)
+→ **[Symptom Stable v1.2 をダウンロード](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
 ---
 
-## プロンプト溶解（Prompt Dissolution）
+# なぜこれが重要なのか
 
-プロンプトはAIの初期挙動を強く制御する。
+現在のAIシステムは **線形の会話コンテキスト（linear conversational context）** 上で推論を行う。
 
-しかし対話が長くなると、その影響は徐々に弱まることがある。
+対話が長くなると、この構造は次の問題を生みやすい。
 
-![Prompt Roles Fade](docs/img/prompt_roles_fade.png)
+- reference drift（参照ドリフト）  
+- topic drift（トピックドリフト）  
+- reasoning interference（推論干渉）  
 
-初期の回答はプロンプトを強く反映するが、  
-対話が進むにつれてモデルは次の要素に従いやすくなる。
+これらはしばしば次のような形で現れる。
 
-- 会話の整合性  
-- 確率的補完  
-- 文脈再解釈  
+- hallucinations（ハルシネーション）  
+- inconsistent reasoning（推論の不整合）  
+- sudden loss of context（突然の文脈喪失）  
 
-この構造変化を **Prompt Dissolution** と呼ぶ。
+しかしこれらの多くは  
+**モデル能力の限界ではなく、構造問題** である可能性がある。
 
----
+BRMは **会話の参照構造を安定化することで、AIとの長期協働を改善できる** という仮説を提案する。
 
-## Prompt Control と Structural Control
-
-プロンプト制御は **初期挙動** を形作る。
-
-しかし長期対話では、追加の構造が必要になることがある。
-
-![Prompt Control vs Structural Control](docs/img/prompt-control-vs-structural-control.png)
-
-Prompt Control
-
-- 単一の命令レイヤー
-
-Structural Control
-
-- 推論構造  
-- 参照アンカー  
-- 運用モード  
-- ワークフロー制約  
-
-詳しくは：
-
-- 🇯🇵 [Prompt Control vs Structural Control](core/JP/prompt-control-vs-structural-control_JP.md)  
-- 🇺🇸 [Prompt Control vs Structural Control](core/EN/prompt-vs-structural-control.md)
+このリポジトリは  
+**その仮説を検証するための概念モデル** を提示する。
 
 ---
 
-## 内部制御の進化
+# 概念概要
 
-AI制御は段階的に進化してきた。
+Branching Reference Model は、AI協働を次の三層に分けて考える。
 
-| 比較項目 | ロール指定 | コンテキスト蓄積 | アンカーリング | BRM |
-| :--- | :--- | :--- | :--- | :--- |
-| 長期安定性 | 低 | 中 | 高 | **非常に高い** |
-| ドリフト耐性 | 低 | 中 | 高 | **構造的** |
-| ルール保持持続性 | 低 | 中 | **高い** | **非常に高い** |
-| ロール固定性 | 一時的 | 文脈依存 | **安定** | **構造的 + 復旧可能** |
-| 復旧性 | なし | 限定的 | 部分的 | **あり** |
-| 構造の可視性 | 不透明 | 不透明 | 半明示的 | **明示的** |
+Conversation Structure（対話構造）  
+↓  
+Reasoning Process（推論プロセス）  
+↓  
+Inference Engine（推論エンジン）
 
-- ロール指定：振る舞いを宣言する  
-- コンテキスト蓄積：履歴に依存して安定を試みる  
-- アンカーリング：参照優先度と境界を設計する  
-- BRM：参照スコープを明示的に構造化し、復旧可能にする  
+この構造では、
 
----
+ユーザーがAIと対話する  
+↓  
+**BRMが会話コンテキストの参照構造を整理する**  
+↓  
+Stable Modes が推論手順をガイドする  
+↓  
+言語モデルが推論を実行する
 
-## モデル以前の観測 — アンカーリング理論
+BRMは **対話構造** を整理する。  
+Stable Modes は **推論手順** をガイドする。  
+LLMは **推論処理** を行う。
 
-プロンプトは溶ける。
-
-AI出力を支配するのは、最初の命令ではなく、  
-対話の中で再構築された参照場である。
-
-- 🇯🇵 [アンカーリング理論 — 溶ける入浴剤と、溶けない碇](core/JP/Anchoring_Theory_Dissolving_Prompts_JP.md)  
-- 🇺🇸 [Anchoring Theory — Dissolving Prompts and the Permanent Anchor](core/EN/Anchoring_Theory_Dissolving_Prompts_EN.md)
+この分離によって、推論戦略を変更しても  
+会話構造を破壊することなく運用できる。
 
 ---
 
-## 構造的ギャップ（Structural Gap）
+# Repository Structure
 
-長期協働が崩壊する根本原因の分析。
+このリポジトリは **AI長期協働における構造問題** を整理し、  
+それに対するモデルを提示する。
 
-- 🇯🇵 [AIとの長期協働における構造的ギャップ](core/JP/Structural_Gap_in_Long_Term_LLM_Collaboration_JP.md)  
-- 🇺🇸 [The Structural Gap in Long-Term LLM Collaboration](core/EN/Structural_Gap_in_Long_Term_LLM_Collaboration.md)
+概念の進行順：
 
----
+Observed collaboration failures（観測された協働失敗）  
+↓  
+Prompt Dissolution  
+↓  
+Reference instability（参照の不安定化）  
+↓  
+Stable reasoning environments（安定した推論環境）  
+↓  
+Branching Reference Model
 
-## コア定義（Core Model）
+リポジトリは主に次の二つで構成される。
 
-- 🇯🇵 [Core Definition](core/JP/BRM_Core_Definition_JP.md)  
-- 🇺🇸 [Core Definition](core/EN/BRM_Core_Definition_EN.md)
-
----
-
-## 外部拡張との違い
-
-RAGや長大コンテキストは能力拡張である。  
-BRMは参照制御である。
-
-扱っている変数が異なる。
-
----
-
-## エンジンの前にフレーム設計を
-
-現在のAI進化は、主に能力拡張を軸としている。
-
-- 推論性能  
-- コンテキスト長  
-- ベンチマーク  
-
-しかし長期協働が露わにする制約は別にある。
-
-それは **構造的連続性** である。
-
-エンジンを加速させる前に、  
-それを支えるフレームを再考する必要がある。
-
-- 🇯🇵 [アーキテクチャはエンジンの前に — 長期LLM協働における最適化再定義](core/JP/Architecture_Before_Engine.md)  
-- 🇺🇸 [Architecture Before Engine — Rethinking Optimization in Long-Term LLM Collaboration](core/EN/Architecture_Before_Engine.md)
+• **AI対話の構造問題を観測したエッセイ**  
+• **BRMのコアモデル定義**
 
 ---
 
-## 最後に
+# Essays（Japanese）
 
-AIの崩壊はカオスではない。
+BRMに関する日本語エッセイは Zenn に掲載している。
 
-それは設計のない重力である。
+### [AIは森を見る](https://zenn.dev/continuitymodel/articles/6b5d48e6786d48)
 
-メモリを増やすことが解決策でないならば、  
-我々は参照構造を設計しなければならない。
+AIと人間の視点差について。
+
+### [会話参照問題](https://zenn.dev/continuitymodel/articles/5e2972d7b92e6c)
+
+長いAI対話で発生する参照ドリフトの分析。
+
+### [安定環境と止まり木](https://zenn.dev/continuitymodel/articles/bd166aaeb198f4)
+
+推論環境を安定させるための参照アンカー。
+
+### [BRMとは何か](https://zenn.dev/continuitymodel/articles/de2132208ac7bb)
+
+Branching Reference Model の概念説明。
+
+---
+
+# Core Model
+
+Branching Reference Model の正式な概念定義。
+
+→ **[BRM Core Model v2](core/JP/BRM_Core_v2.md)**
+
+この文書では BRM の基本要素を定義する。
+
+- Node  
+- Branch  
+- Reference Scope  
+
+そしてそれらがどのように長期AI協働を整理するかを説明する。
+
+---
+
+# Free Stable Mode（Symptom）
+
+BRMの構造思想から生まれた軽量ツール。
+
+**Symptom Stable Mode** は  
+診断や結論に飛ぶ前に **観測整理** を強制する。
+
+整理される要素：
+
+- observation  
+- timeline  
+- severity  
+- potential risk  
+- clarification questions  
+
+これにより次のような問題を防ぐ。
+
+- premature conclusions  
+- hypothesis flooding  
+- reasoning drift  
+- missed observations  
+
+無料公開：
+
+→ **[Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
+
+このモードは単体でも使用でき、  
+BRMの構造思想を体験する入口にもなる。
+
+---
+
+# このリポジトリの読み方
+
+どこから読んでも構わないが、推奨順は次の通り。
+
+1. エッセイ — 観測されたAI協働の失敗  
+2. 長期対話における参照不安定性  
+3. 構造的推論環境  
+4. Branching Reference Model
