@@ -96,7 +96,7 @@ BRMでは
 
 ## 基本構造
 
-![BRM Reference Structure](../docs/img/brm_reference_structure.png)
+![BRM Reference Structure](../../docs/img/brm_reference_structure.png)
 
 *Figure: BRM reference structure organizing conversation into scoped reasoning nodes.*
 
