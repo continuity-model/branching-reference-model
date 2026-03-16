@@ -176,9 +176,9 @@ This is the motivation behind the **Branching Reference Model**.
 
 # Human Thought Is Branching
 
-Human reasoning does not progress in a single line.
+Human reasoning rarely progresses in a single line.
 
-Thought frequently moves between topics and returns to earlier points.
+Instead, thought frequently moves between ideas, revisits earlier assumptions, and explores multiple hypotheses before reaching a conclusion.
 
 A typical reasoning process may include:
 
@@ -188,13 +188,7 @@ A typical reasoning process may include:
 - suspending a thread of discussion  
 - resuming it later  
 
-Even unrelated thoughts may appear during a reasoning process.
-
-For example, while evaluating a technical hypothesis, someone might briefly think about what to cook for dinner before returning to the problem.
-
-This is normal cognitive behavior.
-
-Human reasoning behaves more like **a network of branching paths** than a single line.
+Human reasoning therefore behaves more like **a network of branching paths** than a single linear sequence.
 
 Ideas diverge, reconnect, and evolve.
 
@@ -307,6 +301,8 @@ Typical semantic link types include:
 - causal origin  
 - decision reference  
 
+These links represent different reasoning semantics between nodes rather than simple structural adjacency.
+
 Multiple branches may connect the same nodes when different reasoning relations exist.
 
 This structure is closer to a **reasoning graph** than a strict tree.
@@ -334,7 +330,8 @@ Previous discussion contexts
 
 All elements remain within the same structural visibility space.
 
-Resolution differs, but scope remains shared.
+Resolution differs, but scope remains shared.  
+Visibility is shared across the structure, but informational resolution varies depending on the active reasoning context.
 
 This mechanism allows discussions to shift context without collapsing into uncontrolled context mixing.
 
@@ -442,6 +439,32 @@ future AI systems capable of managing structured reference spaces natively.
 
 ---
 
+# Limitations and Future Directions
+
+BRM intentionally focuses on structural organization rather than improving model reasoning itself.
+
+Several important aspects of long-term AI collaboration remain outside the scope of the current model.
+
+First, BRM does not define a universal algorithm for automatically detecting node boundaries.  
+While modern language models are often capable of recognizing structural transitions in discourse, practical implementations may require additional heuristics or user guidance.
+
+Second, BRM does not prescribe a specific storage architecture for node graphs.  
+Different implementations may represent nodes and branches using databases, graph structures, or specialized memory systems.
+
+Third, BRM does not replace existing approaches such as retrieval systems or long-context models.  
+Instead, it can potentially complement them by providing structural organization for reasoning references.
+
+Future research directions may include:
+
+- automated node boundary detection
+- visualization tools for reasoning graphs
+- collaborative multi-agent reasoning environments
+- integration with long-context and retrieval architectures
+
+BRM should therefore be understood not as a finished system, but as a structural model intended to guide the design of future AI collaboration environments.
+
+---
+
 # Conclusion
 
 The earlier essays in this series examined several recurring issues in long AI conversations:
@@ -464,4 +487,4 @@ Its purpose is to establish structural primitives for organizing AI collaboratio
 
 Future systems may incorporate these ideas more deeply, but even within current architectures, structured conversation models can significantly improve long-form AI interaction.
 
-BRM represents one approach toward defining such a structure.
+BRM therefore focuses not on improving model reasoning itself, but on stabilizing the structural environment in which reasoning occurs.
