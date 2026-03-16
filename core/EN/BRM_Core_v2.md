@@ -208,6 +208,26 @@ What is needed is **a structure capable of representing it.**
 
 ---
 
+# Design Principles
+
+BRM is built on three design principles.
+
+**Separate structure from reasoning**
+
+BRM does not attempt to control the reasoning process of language models.  
+Instead, it organizes the structural reference space in which reasoning occurs.
+
+**Preserve independent reasoning paths**
+
+Human reasoning frequently explores multiple hypotheses simultaneously.  
+BRM allows these paths to remain structurally distinguishable rather than compressing them into a single linear conversation.
+
+**Control reference scope instead of expanding context**
+
+Rather than relying on ever-growing conversation logs, BRM stabilizes collaboration by organizing which references are visible to the current reasoning process.
+
+---
+
 # BRM Model Definition
 
 The Branching Reference Model is a **conversation structure model** designed to organize AI collaboration.
@@ -217,6 +237,8 @@ BRM intentionally defines only a minimal set of structural primitives.
 Higher-level organizational constructs belong to operational layers rather than the core model.
 
 ![BRM Reference Structure](../../docs/img/brm_reference_structure.png)
+
+The diagram above illustrates how nodes, branches, and reference scope interact within the BRM structure.
 
 The core primitives of BRM are:
 
