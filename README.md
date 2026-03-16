@@ -117,24 +117,6 @@ This separation allows reasoning strategies to evolve without destabilizing conv
 
 ---
 
-# Architecture Before Engine
-
-Another key idea behind BRM is that **structural design may matter as much as model capability**.
-
-Current AI development focuses primarily on expanding model capabilities:
-
-- reasoning performance  
-- context length  
-- model scale  
-
-However, many failures observed in long AI collaborations appear to be **structural rather than purely model limitations**.
-
-Before accelerating the engine, we may need to rethink the frame that supports it.
-
-→ **[Architecture Before Engine](core/EN/Architecture_Before_Engine.md)**
-
----
-
 # Repository Structure
 
 This repository explores **structural failures in long AI collaboration** and proposes a model to address them.
@@ -183,6 +165,24 @@ How reference drift appears in long AI conversations.
 The idea of stabilizing reasoning through structured reference anchors.
 
 → **[Read essay](essay/EN/ai_stable_environment_and_perch.md)**
+
+---
+
+# Architecture Before Engine
+
+Another key idea behind BRM is that **structural design may matter as much as model capability**.
+
+Current AI development focuses primarily on expanding model capabilities:
+
+- reasoning performance  
+- context length  
+- model scale  
+
+However, many failures observed in long AI collaborations appear to be **structural rather than purely model limitations**.
+
+Before accelerating the engine, we may need to rethink the frame that supports it.
+
+→ **[Architecture Before Engine](core/EN/Architecture_Before_Engine.md)**
 
 ---
 
