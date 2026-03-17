@@ -63,6 +63,24 @@ If you'd like to experience one of these structures in practice, you can try a f
 
 ---
 
+## Start Here (Practical Guide)
+
+BRM focuses on the **structure of AI interaction**.
+
+If you're looking for how these ideas apply to real AI usage:
+
+→ **[Stable Thinking Stack](core/EN/stable-thinking-stack.md)**
+
+This introduces layer-based reasoning such as:
+
+Fact → Interpretation → Uncertainty → Risk → Action
+
+which helps reduce hallucination, reasoning drift, and unnecessary verification.
+
+This is the easiest way to understand how BRM concepts affect real AI behavior.
+
+---
+
 # Why This Matters
 
 Current AI systems reason over **linear conversational context**.
