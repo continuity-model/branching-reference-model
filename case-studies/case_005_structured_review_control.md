@@ -88,4 +88,12 @@ made improvement reliable.
 
 ## Note
 
-This approach
+This approach is derived from the **Review Stable Mode**.
+
+→ [Review Stable Mode](../stables/EN/review-stable.md)
+
+It was implemented using a standard AI model,  
+without any special setup, tuning, or external tools.
+
+The key difference was not model capability,  
+but introducing a **controlled structure for improvement**.
