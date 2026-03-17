@@ -67,17 +67,17 @@ If you'd like to experience one of these structures in practice, you can try a f
 
 BRM focuses on the **structure of AI interaction**.
 
-If you're looking for how these ideas apply to real AI usage:
+If you want to see how this changes real AI reasoning:
 
 → **[Stable Thinking Stack](core/EN/stable-thinking-stack.md)**
 
-This introduces layer-based reasoning such as:
+Most AI answers mix everything together.
+
+The Stack forces separation:
 
 Fact → Interpretation → Uncertainty → Risk → Action
 
 which helps reduce hallucination, reasoning drift, and unnecessary verification.
-
-This is the easiest way to understand how BRM concepts affect real AI behavior.
 
 ---
 
@@ -99,7 +99,21 @@ These effects often appear as:
 
 However, many of these failures are **structural rather than purely model limitations**.
 
-BRM proposes that stabilizing the **reference structure of conversations** can significantly improve long-term collaboration with AI systems.
+BRM proposes that stabilizing the **reference structure of c## Start Here (Practical Guide)
+
+BRM focuses on the **structure of AI interaction**.
+
+If you want to see how this changes real AI reasoning:
+
+→ **[Stable Thinking Stack](core/EN/stable-thinking-stack.md)**
+
+Most AI answers mix everything together.
+
+The Stack forces separation:
+
+Fact → Interpretation → Uncertainty → Risk → Action
+
+which helps reduce hallucination, reasoning drift, and unnecessary verification.onversations** can significantly improve long-term collaboration with AI systems.
 
 Instead of treating conversation history as a single expanding stream, BRM introduces **structured reference organization**.
 
