@@ -56,7 +56,7 @@ This was achieved using a standard AI model
 without any special setup, tuning, or external tools.
 
 The reasoning process was structured using a governance-based approach  
-derived from the Legal Stable Mode.
+derived from the [Legal Stable Mode](../stables/EN/legal-stable.md)
 
 This approach is reproducible using structured reasoning protocols.
 
