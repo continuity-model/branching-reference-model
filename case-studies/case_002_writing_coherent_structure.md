@@ -71,7 +71,7 @@ This was achieved using a standard AI model
 without any special setup, tuning, or external tools.
 
 The process was stabilized using a structured writing approach  
-derived from the Writing Stable Mode.
+derived from the [Writing Stable Mode](../stables/EN/writing-stable.md)
 
 This approach is reproducible using structured reasoning protocols.
 
