@@ -71,6 +71,10 @@ If you want to see how this changes real AI reasoning:
 
 → **[Stable Thinking Stack](core/EN/stable-thinking-stack.md)**
 
+If you want to see how these ideas work in real scenarios:
+
+→ [Case Studies](case-studies/README.md)
+
 Most AI answers mix everything together.
 
 The Stack forces separation:
