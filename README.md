@@ -62,6 +62,10 @@ If you'd like to experience one of these structures in practice, you can try a f
 → **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
 ---
+If you want to understand why BRM exists:
+
+→ **[Read the Origin Timeline](BRM_Origin_Timeline.md)**
+---
 
 ## Start Here (Practical Guide)
 
