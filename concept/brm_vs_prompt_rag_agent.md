@@ -188,3 +188,10 @@ They are **complementary layers**.
 RAG adds knowledge.  
 Agents add capability.  
 BRM adds stability.
+
+---
+
+## See Also
+
+- [BRM vs Default](./brm_vs_default.md)
+- [BRM vs Prompt](./brm_vs_prompt.md)
