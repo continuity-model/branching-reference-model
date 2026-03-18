@@ -1,3 +1,10 @@
+🌐 **Language / 言語**
+
+- 🇺🇸 English (current)
+- 🇯🇵 [日本語版はこちら](BRM_Origin_Timeline_JP.md)
+
+---
+
 # BRM — Origin Timeline
 ### From Friction to Structure
 
