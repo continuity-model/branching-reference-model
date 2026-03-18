@@ -1,3 +1,10 @@
+🌐 **Language / 言語**
+
+- 🇺🇸 [English version](BRM_Origin_Timeline.md)
+- 🇯🇵 日本語 (現在)
+
+---
+
 # BRM — 誕生タイムライン
 ### 摩擦から構造へ
 
