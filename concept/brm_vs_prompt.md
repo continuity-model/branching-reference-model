@@ -76,3 +76,10 @@ BRM lets you keep it good.
 
 They are not replacements.  
 They operate at different layers.
+
+---
+
+## See Also
+
+- BRM vs Default → ./brm_vs_default.md
+- BRM vs Prompt / RAG / Agent → ./brm_vs_prompt_rag_agent.md
