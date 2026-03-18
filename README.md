@@ -17,6 +17,13 @@ As discussions grow, references drift, assumptions blur, and reasoning paths int
 
 BRM introduces a **scoped reference structure** designed to organize conversation context and preserve reasoning stability.
 
+---
+
+👉 **Understand where BRM fits among prompts, RAG, and agents**  
+→ [Concept Comparisons](./concept/)
+
+---
+
 ![BRM Reference Structure](docs/img/brm_reference_structure.png)
 
 ---
