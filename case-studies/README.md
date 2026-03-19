@@ -1,19 +1,19 @@
 # Case Studies
 
-Real-world applications of structured reasoning in AI collaboration.
+AI failures are not random.
 
-These case studies demonstrate how changing the **structure of thinking**  
-affects real outcomes across different domains.
+They follow patterns.
 
-This is not theory.
+- the answer looks correct, but misses the point  
+- the structure is clean, but intent is lost  
+- the reasoning sounds confident, but is wrong  
 
-These are actual use cases where:
+These cases show what actually happens when:
 
-- decisions were made  
-- problems were resolved  
-- work was completed  
+→ reasoning is not structured  
+→ context is not controlled  
 
-by changing **how reasoning is structured**, not the model itself.
+And what changes when it is.
 
 ---
 
@@ -29,54 +29,61 @@ It comes from:
 - delaying conclusions until context is clear  
 - structuring reasoning before generating output  
 
+These are not examples of better answers.
+
+They are cases where:
+
+- the initial approach failed  
+- the output looked correct but was wrong  
+- decisions could not be trusted  
+
+And what changed when reasoning structure was fixed.
+
 ---
 
 ## Case Studies
 
 ### 1. High-Risk Deal (Legal)
-
-Turning a risky cross-border deal into a controlled outcome.
-
+A deal that looked safe — until hidden assumptions surfaced.  
 → [case_001_high_risk_deal.md](./case_001_high_risk_deal.md)
 
 ---
 
 ### 2. Coherent Writing (Writing)
-
-Stabilizing long-form writing and preventing output collapse.
-
+A draft that read well — but lost its original intent.  
 → [case_002_writing_coherent_structure.md](./case_002_writing_coherent_structure.md)
 
 ---
 
 ### 3. Reliable Evaluation (Evaluation)
-
-Eliminating vague feedback and enabling clear decision-making.
-
+Feedback that sounded useful — but led to worse decisions.  
 → [case_003_reliable_evaluation.md](./case_003_reliable_evaluation.md)
 
 ---
 
 ### 4. Symptom Triage (Entry Point)
-
-Preventing premature answers by structuring problem understanding.
-
+A problem that seemed obvious — but was misidentified early.  
 → [case_004_structured_symptom_triage.md](./case_004_structured_symptom_triage.md)
+
+---
+
+### 5. Broken by “Improvement” (Review)
+A review that tried to help — but destroyed the original work.  
+→ [case_005_structured_review_control.md](./case_005_structured_review_control.md)
 
 ---
 
 ## How to Use This
 
-Each case connects to a corresponding Stable Mode.
-
-Case → shows what happened  
-Stable Mode → shows how to reproduce it  
+Case → shows where things break  
+Stable Mode → shows how to prevent it  
 
 If you want to try these approaches:
 
 - Writing → [Writing Stable](../stables/EN/writing-stable.md)  
 - Evaluation → [Evaluation Stable](../stables/EN/evaluation-stable.md)  
 - Legal → [Legal Stable](../stables/EN/legal-stable.md)  
+- Review → [Review Stable](../stables/EN/review-stable.md)  
 - Symptom → [Free release](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)
 
 ---
@@ -87,7 +94,6 @@ The difference is not capability.
 
 It is structure.
 
-AI does not need to become smarter  
-to produce better outcomes.
+The model is not failing randomly.
 
-It needs a better **thinking structure**.
+The structure is failing predictably.
