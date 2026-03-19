@@ -7,6 +7,8 @@
 
 # Branching Reference Model (BRM)
 
+AI conversations often collapse in predictable ways.
+
 ![Linear vs BRM](docs/img/linear_vs_brm_v2.png)
 
 A structural model for stabilizing long AI conversations.
@@ -19,12 +21,19 @@ BRM introduces a **scoped reference structure** designed to organize conversatio
 
 ---
 
-👉 **Understand where BRM fits among prompts, RAG, and agents**  
-→ [Concept Comparisons](./concept/)
+If you came here from X or Zenn:
 
----
+AI conversations often fail in predictable ways:
 
-![BRM Reference Structure](docs/img/brm_reference_structure.png)
+- context drift  
+- reasoning instability  
+- prompt breakdown over time  
+
+This is not random.
+
+Start with a real example:
+
+→ **[Case Study (see failure first)](case-studies/README.md)**
 
 ---
 
@@ -64,35 +73,38 @@ Stable Long-Term Collaboration
 
 **BRM organizes conversations into recoverable reference branches**, allowing reasoning paths to remain stable even as interaction history expands.
 
-If you'd like to experience one of these structures in practice, you can try a free Stable Mode:
+---
+
+![BRM Reference Structure](docs/img/brm_reference_structure.png)
+
+---
+
+If you'd like to experience one of these structures in practice:
 
 → **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
----
 If you want to understand why BRM exists:
 
 → **[Read the Origin Timeline](BRM_Origin_Timeline.md)**
+
 ---
 
-## Start Here (Practical Guide)
+## Start Here
 
-BRM focuses on the **structure of AI interaction**.
+If you're new, start with:
 
-If you want to see how this changes real AI reasoning:
+→ **[Case Study (Start Here)](case-studies/README.md)**
+
+Then:
 
 → **[Stable Thinking Stack](core/EN/stable-thinking-stack.md)**
 
-If you want to see how these ideas work in real scenarios:
+After that, explore freely.
 
-→ [Case Studies](case-studies/README.md)
+---
 
-Most AI answers mix everything together.
-
-The Stack forces separation:
-
-Fact → Interpretation → Uncertainty → Risk → Action
-
-which helps reduce hallucination, reasoning drift, and unnecessary verification.
+👉 **Understand where BRM fits among prompts, RAG, and agents**  
+→ [Concept Comparisons](./concept/)
 
 ---
 
@@ -179,107 +191,72 @@ These essays explore structural issues observed in long AI conversations.
 
 ### AI Sees the Forest
 
-Perspective differences between users and AI during reasoning.
-
+→ Perspective differences between users and AI during reasoning  
 → **[Read essay](essay/EN/ai_sees_the_forest.md)**
 
 ---
 
 ### The Conversation Reference Problem
 
-How reference drift appears in long AI conversations.
-
+→ How reference drift appears in long AI conversations  
 → **[Read essay](essay/EN/ai_conversation_reference_problem.md)**
-
 
 ---
 
 ### Stable Environment and Perch
 
-The idea of stabilizing reasoning through structured reference anchors.
-
+→ The idea of stabilizing reasoning through structured reference anchors  
 → **[Read essay](essay/EN/ai_stable_environment_and_perch.md)**
 
 ---
 
 # Architecture Before Engine
 
-Another key idea behind BRM is that **structural design may matter as much as model capability**.
-
-Current AI development focuses primarily on expanding model capabilities:
-
-- reasoning performance  
-- context length  
-- model scale  
-
-However, many failures observed in long AI collaborations appear to be **structural rather than purely model limitations**.
-
-Before accelerating the engine, we may need to rethink the frame that supports it.
-
-→ **[Architecture Before Engine](core/EN/Architecture_Before_Engine.md)**
+→ Why structure may matter as much as model capability  
+→ **[Read](core/EN/Architecture_Before_Engine.md)**
 
 ---
 
 # Core Model
 
-The formal conceptual description of the Branching Reference Model.
-
+→ Formal definition of BRM primitives and structure  
 → **[BRM Core Model v2](core/EN/BRM_Core_v2.md)**
-
-This document defines the core primitives of BRM:
-
-- Nodes  
-- Branches  
-- Reference Scope  
-
-and explains how they organize long-term AI collaboration.
 
 ---
 
 # Free Stable Mode (Symptom)
 
-A lightweight practical tool derived from the structural ideas discussed in this repository.
-
-**Symptom Stable Mode** stabilizes early-stage reasoning by enforcing structured observation before diagnosis or explanation.
-
-Instead of jumping directly to conclusions, the mode organizes the situation through a simple triage structure:
-
-- observation  
-- timeline  
-- severity  
-- potential risk  
-- clarification questions  
-
-This approach helps prevent several common AI collaboration failures such as:
-
-- premature conclusions  
-- hypothesis flooding  
-- reasoning drift  
-- missed critical observations  
-
-The package includes:
-
-- the core mode file  
-- activation instructions  
-- an operating guide  
-- quick reference  
-- example failure cases  
-
-allowing the mode to be used as a practical standalone tool.
-
-Free release:
-
+→ A practical entry point for structured reasoning  
 → **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
 
-This mode can be used independently and also serves as a practical entry point to the structural reasoning ideas explored in BRM.
+---
+
+# Explore Further
+
+If you want to explore deeper:
+
+- → [Concept Comparisons](./concept/)  
+  Understand how BRM differs from prompts, RAG, and agents  
+
+- → [Case Studies](case-studies/README.md)  
+  See real examples of failure and structural recovery  
+
+- → [Stable Thinking Stack](core/EN/stable-thinking-stack.md)  
+  Apply structured reasoning in practice  
+
+- → [BRM Core Model](core/EN/BRM_Core_v2.md)  
+  Explore the formal structure and primitives  
+
+- → [Architecture Before Engine](core/EN/Architecture_Before_Engine.md)  
+  Understand the broader design philosophy  
 
 ---
 
 # How to Read This Repository
 
-Readers can start anywhere, but the following order reflects the conceptual progression:
+Readers can explore freely after following the main path:
 
-1. Essays — observed collaboration failures  
-2. Reference instability in long conversations  
-3. Structural reasoning environments  
-4. Branching Reference Model
+1. Case Study  
+2. Stable Thinking Stack  
+3. Structural Model  
+4. Conceptual Exploration
