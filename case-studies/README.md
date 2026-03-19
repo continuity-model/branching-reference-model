@@ -19,11 +19,9 @@ And what changes when it is.
 
 ## What This Shows
 
-Across all cases, a consistent pattern appears:
-
 The improvement does not come from better answers.
 
-It comes from:
+It comes from structure:
 
 - separating what is known / unknown / assumed  
 - delaying conclusions until context is clear  
@@ -75,7 +73,7 @@ A review that tried to help — but destroyed the original work.
 
 ## How to Use This
 
-Case → shows where things break  
+Case → shows where things actually break  
 Stable Mode → shows how to prevent it  
 
 If you want to try these approaches:
