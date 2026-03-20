@@ -4,12 +4,6 @@
 
 ------------------------------------------------------------------------
 
-# Architecture Before Engine:
-
-## Rethinking Optimization in Long-Term LLM Collaboration
-
-------------------------------------------------------------------------
-
 # Chapter 0: Why I Felt a Discomfort
 
 AI was supposed to become a partner.
