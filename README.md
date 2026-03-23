@@ -81,7 +81,7 @@ Stable Long-Term Collaboration
 
 If you'd like to experience one of these structures in practice:
 
-→ **[Download Symptom Stable v1.2](https://github.com/continuity-model/branching-reference-model/releases/tag/symptom-stable-v1.2)**
+→ **[Download Symptom Stable v1.2](https://github.com/user-attachments/files/26179922/Symptom_Stable_v1_2_EN_Finalized.zip)**
 
 If you want to understand why BRM exists:
 
