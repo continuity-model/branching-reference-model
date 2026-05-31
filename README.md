@@ -210,6 +210,14 @@ These essays explore structural issues observed in long AI conversations.
 
 ---
 
+### Reference Contamination
+
+→ The hidden failure mode of RAG and enterprise AI  
+→ Why “feeding everything into AI” does not create veteran judgment  
+→ **[Read essay](essay/EN/reference_contamination_brm_essay_en.md)**
+
+---
+
 # Architecture Before Engine
 
 → Why structure may matter as much as model capability  
