@@ -222,7 +222,7 @@ These essays explore structural issues observed in long AI conversations.
 
 → Why role-specific AI needs reference boundaries, not just prompts  
 → How role-based AI can multiply contamination when every role shares the same archive  
-→ **[Read essay](essay/EN/role_based_ai_reference_contamination_essay_en.md)**
+→ **[Read essay](essay/EN/role_based_ai_reference_contamination_essay_en_final.md)**
 
 ---
 
