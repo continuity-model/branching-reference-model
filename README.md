@@ -218,6 +218,14 @@ These essays explore structural issues observed in long AI conversations.
 
 ---
 
+### Role-Based AI and Reference Contamination
+
+→ Why role-specific AI needs reference boundaries, not just prompts  
+→ How role-based AI can multiply contamination when every role shares the same archive  
+→ **[Read essay](essay/EN/role_based_ai_reference_contamination_essay_en.md)**
+
+---
+
 # Architecture Before Engine
 
 → Why structure may matter as much as model capability  
