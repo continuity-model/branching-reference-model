@@ -226,6 +226,14 @@ These essays explore structural issues observed in long AI conversations.
 
 ---
 
+### BRM for Long-Lived Agents
+
+→ Why persistent agents need branch-aware reference architecture  
+→ How long-lived AI can preserve memory without turning artifacts, failures, and reactions into false continuity  
+→ **[Read essay](essay/EN/brm_for_long_lived_agents.md)**
+
+---
+
 # Architecture Before Engine
 
 → Why structure may matter as much as model capability  
