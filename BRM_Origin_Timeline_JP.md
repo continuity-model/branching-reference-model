@@ -1,3 +1,7 @@
+Historical / evidentiary note
+本タイムラインはBRM形成過程の比較的早い段階で作成された歴史記述であり、一部のLLM内部機構に関する説明は当時の観察から導かれた解釈を含む。これらはLLM内部状態を直接観測・検証した記述ではない。現在のevidence-groundedな形成史については research/formation/v1.0/ を参照。
+
+
 🌐 **Language / 言語**
 
 - 🇺🇸 [English version](BRM_Origin_Timeline.md)
