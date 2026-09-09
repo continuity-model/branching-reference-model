@@ -1,3 +1,14 @@
+> Historical note
+>
+> This timeline is an earlier reconstruction produced during the
+> development of BRM. Some mechanism-level explanations reflect
+> contemporaneous interpretations and should not be read as verified
+> descriptions of LLM internals.
+>
+> For the current evidence-grounded reconstruction of BRM formation,
+> see:
+> research/formation/v1.0/
+
 🌐 **Language / 言語**
 
 - 🇺🇸 English (current)
